@@ -1,2 +1,2 @@
 # BlastMage
-Lihan wang
+Linhan wang
