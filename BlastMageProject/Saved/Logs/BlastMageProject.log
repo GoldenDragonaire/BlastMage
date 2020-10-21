@@ -1495,3 +1495,12 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.21-23.51.16:703][ 22]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/Level1.Level1
 [2020.10.21-23.51.16:703][ 22]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/Level1_BuiltData.Level1_BuiltData
 [2020.10.21-23.51.17:775][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.10.21-23.52.48:881][488]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2020.10.21-23.52.49:058][488]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.21-23.53.16:393][488]LogSlate: Window 'Delete Assets' being destroyed
+[2020.10.21-23.53.19:981][488]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Gameplay/Blueprints/PLAYER_CHARACTER.PLAYER_CHARACTER
+[2020.10.21-23.53.20:871][488]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2020.10.21-23.53.21:187][488]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2020.10.21-23.53.21:211][488]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2020.10.21-23.53.21:231][488]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
