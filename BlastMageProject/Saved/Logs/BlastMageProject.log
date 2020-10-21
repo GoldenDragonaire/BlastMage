@@ -1,8 +1,8 @@
-﻿Log file open, 10/21/20 17:12:26
+﻿Log file open, 10/21/20 17:14:22
 LogInit: Display: Running engine for game: BlastMageProject
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.233278
+LogStats: Stats thread started at 0.148033
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -144,7 +144,7 @@ LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
 LogInit: Compiled with Visual C++: 19.24.28315.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.25
-LogInit: Command Line: 
+LogInit: Command Line:  -EpicPortal -epicusername=Sir_Flappy_Bird -epicuserid=12f973b02b934bc6881742c048f4efac -epiclocale=en
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
 LogInit: Allocator: TBB
 LogInit: Installed Engine Build: 1
@@ -194,467 +194,1040 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.10.21-23.12.26:907][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.10.21-23.12.26:907][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.10.21-23.12.26:907][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Engine.ini]
-[2020.10.21-23.12.26:907][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.10.21-23.12.26:907][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Engine.ini]
-[2020.10.21-23.12.26:907][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Engine.ini]
-[2020.10.21-23.12.26:907][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.10.21-23.12.26:907][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.10.21-23.12.26:907][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.10.21-23.12.26:907][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.10.21-23.12.26:907][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.10.21-23.12.26:908][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.10.21-23.12.26:908][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.10.21-23.12.26:908][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.10.21-23.12.26:908][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.10.21-23.12.26:908][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.10.21-23.12.26:908][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.10.21-23.12.26:908][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.10.21-23.12.26:908][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.10.21-23.12.26:908][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.10.21-23.12.26:908][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Engine.ini]
-[2020.10.21-23.12.26:908][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.10.21-23.12.26:908][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.10.21-23.12.26:908][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.10.21-23.12.26:908][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.10.21-23.12.26:908][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.10.21-23.12.26:908][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.10.21-23.12.26:908][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.10.21-23.12.26:908][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.10.21-23.12.26:908][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.10.21-23.12.26:908][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.10.21-23.12.26:908][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.10.21-23.12.26:908][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.10.21-23.12.26:908][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.10.21-23.12.26:908][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Engine.ini]
-[2020.10.21-23.12.26:908][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Engine.ini]
-[2020.10.21-23.12.26:909][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.10.21-23.12.26:910][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.10.21-23.12.26:911][  0]LogInit: Selected Device Profile: [Windows]
-[2020.10.21-23.12.26:911][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.10.21-23.12.26:911][  0]LogHAL: Display: Platform has ~ 32 GB [34154270720 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.10.21-23.12.26:911][  0]LogInit: Going up to parent DeviceProfile []
-[2020.10.21-23.12.26:911][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.10.21-23.12.26:911][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.10.21-23.12.26:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.10.21-23.12.26:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.10.21-23.12.26:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.10.21-23.12.26:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.10.21-23.12.26:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.10.21-23.12.26:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.10.21-23.12.26:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.10.21-23.12.26:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.10.21-23.12.26:912][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
-[2020.10.21-23.12.26:912][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.10.21-23.12.26:912][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.10.21-23.12.26:912][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
-[2020.10.21-23.12.26:912][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.10.21-23.12.26:912][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.10.21-23.12.26:912][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.10.21-23.12.26:912][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.10.21-23.12.26:912][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.10.21-23.12.26:912][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.10.21-23.12.26:912][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.10.21-23.12.26:912][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.10.21-23.12.26:912][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.10.21-23.12.26:912][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.10.21-23.12.26:912][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.10.21-23.12.26:912][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Engine.ini]
-[2020.10.21-23.12.26:912][  0]LogInit: Computer: DESKTOP-AANOFUA
-[2020.10.21-23.12.26:912][  0]LogInit: User: robin
-[2020.10.21-23.12.26:912][  0]LogInit: CPU Page size=4096, Cores=6
-[2020.10.21-23.12.26:912][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.10.21-23.12.26:912][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
-[2020.10.21-23.12.26:912][  0]LogMemory: Platform Memory Stats for Windows
-[2020.10.21-23.12.26:912][  0]LogMemory: Process Physical Memory: 118.18 MB used, 118.18 MB peak
-[2020.10.21-23.12.26:912][  0]LogMemory: Process Virtual Memory: 97.15 MB used, 97.15 MB peak
-[2020.10.21-23.12.26:912][  0]LogMemory: Physical Memory: 11489.91 MB used,  21082.14 MB free, 32572.05 MB total
-[2020.10.21-23.12.26:912][  0]LogMemory: Virtual Memory: 5165.46 MB used,  134212560.00 MB free, 134217728.00 MB total
-[2020.10.21-23.12.26:916][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.10.21-23.12.26:951][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.10.21-23.12.26:952][  0]LogInit: Using OS detected language (en-US).
-[2020.10.21-23.12.26:952][  0]LogInit: Using OS detected locale (en-US).
-[2020.10.21-23.12.26:957][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.10.21-23.12.27:100][  0]LogInit: Setting process to per monitor DPI aware
-[2020.10.21-23.12.27:120][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.10.21-23.12.27:120][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.10.21-23.12.27:232][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.10.21-23.12.27:232][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.10.21-23.12.27:232][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.10.21-23.12.27:232][  0]LogD3D11RHI: D3D11 adapters:
-[2020.10.21-23.12.27:303][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
-[2020.10.21-23.12.27:303][  0]LogD3D11RHI:       5980/0/16286 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.10.21-23.12.27:324][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2020.10.21-23.12.27:324][  0]LogD3D11RHI:       128/0/16286 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.10.21-23.12.27:327][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.10.21-23.12.27:327][  0]LogD3D11RHI:       0/0/16286 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.10.21-23.12.27:327][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.10.21-23.12.27:340][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.10.21-23.12.27:340][  0]LogD3D11RHI:     GPU DeviceId: 0x1f11 (for the marketing name, search the web for "GPU Device Id")
-[2020.10.21-23.12.27:340][  0]LogWindows: EnumDisplayDevices:
-[2020.10.21-23.12.27:340][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
-[2020.10.21-23.12.27:341][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2020.10.21-23.12.27:341][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2020.10.21-23.12.27:341][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
-[2020.10.21-23.12.27:342][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
-[2020.10.21-23.12.27:342][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
-[2020.10.21-23.12.27:342][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
-[2020.10.21-23.12.27:342][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2020.10.21-23.12.27:342][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
-[2020.10.21-23.12.27:342][  0]LogD3D11RHI:   Driver Version: 442.59 (internal:26.21.14.4259, unified:442.59)
-[2020.10.21-23.12.27:342][  0]LogD3D11RHI:      Driver Date: 3-4-2020
-[2020.10.21-23.12.27:342][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
-[2020.10.21-23.12.27:378][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.10.21-23.12.27:379][  0]LogD3D11RHI: [Aftermath] Enabled and primed
-[2020.10.21-23.12.27:379][  0]LogD3D11RHI: Async texture creation enabled
-[2020.10.21-23.12.27:379][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.10.21-23.12.27:398][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2020.10.21-23.12.27:637][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.10.21-23.12.27:654][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.10.21-23.12.27:654][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.10.21-23.12.27:654][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.10.21-23.12.27:654][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.10.21-23.12.27:654][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.10.21-23.12.27:654][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.10.21-23.12.27:654][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.10.21-23.12.27:654][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.10.21-23.12.27:654][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.10.21-23.12.27:654][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.10.21-23.12.27:672][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.10.21-23.12.27:672][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.10.21-23.12.27:681][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.10.21-23.12.27:688][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.10.21-23.12.27:696][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.10.21-23.12.27:703][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.10.21-23.12.27:711][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.10.21-23.12.27:718][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.10.21-23.12.27:726][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.10.21-23.12.27:747][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.10.21-23.12.27:747][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.10.21-23.12.27:759][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.10.21-23.12.27:759][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.10.21-23.12.27:767][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.10.21-23.12.27:774][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.10.21-23.12.27:781][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.10.21-23.12.27:788][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.10.21-23.12.27:788][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.10.21-23.12.27:794][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.10.21-23.12.27:842][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (D:/BlastMage/BlastMageProject/Intermediate/Shaders/WorkingDirectory/19200/).
-[2020.10.21-23.12.27:842][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/robin/AppData/Local/Temp/UnrealShaderWorkingDir/45BDCB324302F4E6C525FEBC3913D9E0/'.
-[2020.10.21-23.12.27:844][  0]LogXGEController: Cleaning working directory: C:/Users/robin/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.10.21-23.12.27:844][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.10.21-23.12.27:844][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.10.21-23.12.27:844][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.10.21-23.12.28:495][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.10.21-23.12.28:535][  0]LogDerivedDataCache: Loaded boot cache 0.04s 75MB C:/Users/robin/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.10.21-23.12.28:535][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/robin/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.10.21-23.12.28:535][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/BlastMage/BlastMageProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.10.21-23.12.28:535][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.10.21-23.12.28:535][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/BlastMage/BlastMageProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.10.21-23.12.28:535][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.10.21-23.12.28:546][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.10.21-23.12.28:546][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.10.21-23.12.28:546][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.10.21-23.12.28:547][  0]LogDerivedDataCache: Using Local data cache path C:/Users/robin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.10.21-23.12.28:547][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.10.21-23.12.28:547][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.10.21-23.12.28:595][  0]LogSlate: Using FreeType 2.10.0
-[2020.10.21-23.12.28:595][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.10.21-23.12.28:616][  0]LogAssetRegistry: FAssetRegistry took 0.0020 seconds to start up
-[2020.10.21-23.12.28:806][  0]LogInit: Selected Device Profile: [Windows]
-[2020.10.21-23.12.28:911][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.10.21-23.12.28:911][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.10.21-23.12.28:911][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.10.21-23.12.28:911][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.10.21-23.12.28:911][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.10.21-23.12.28:923][  0]LogNetVersion: BlastMageProject 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3112706182)
-[2020.10.21-23.12.29:271][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000019398D48D80), frame # 0
-[2020.10.21-23.12.29:271][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019398C9AAC0), frame # 0
-[2020.10.21-23.12.29:272][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019398CE9E00), frame # 0
-[2020.10.21-23.12.29:307][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.030468 seconds
-[2020.10.21-23.12.29:312][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2020.10.21-23.12.29:312][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2020.10.21-23.12.29:312][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.10.21-23.12.29:584][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.10.21-23.12.29:587][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.10.21-23.12.29:647][  0]SourceControl: Source control is disabled
-[2020.10.21-23.12.29:647][  0]SourceControl: Source control is disabled
-[2020.10.21-23.12.29:651][  0]SourceControl: Source control is disabled
-[2020.10.21-23.12.29:654][  0]SourceControl: Source control is disabled
-[2020.10.21-23.12.29:658][  0]SourceControl: Source control is disabled
-[2020.10.21-23.12.29:668][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.10.21-23.12.29:668][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.10.21-23.12.29:872][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.10.21-23.12.29:892][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.10.21-23.12.29:892][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.10.21-23.12.29:933][  0]LogOcInput: OculusInput pre-init called
-[2020.10.21-23.12.29:941][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.10.21-23.12.29:941][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.10.21-23.12.29:989][  0]LogEngine: Initializing Engine...
-[2020.10.21-23.12.29:990][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.10.21-23.12.29:990][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.10.21-23.12.29:991][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.10.21-23.12.30:081][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.10.21-23.12.30:091][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.10.21-23.12.30:091][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001939D2F4600), frame # 0
-[2020.10.21-23.12.30:091][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001939D2B3B00), frame # 0
-[2020.10.21-23.12.30:099][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.10.21-23.12.30:099][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.10.21-23.12.30:099][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.10.21-23.12.30:099][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.10.21-23.12.30:099][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.10.21-23.12.30:099][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.10.21-23.12.30:099][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.10.21-23.12.30:099][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.10.21-23.12.30:099][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.10.21-23.12.30:099][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.10.21-23.12.30:110][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.10.21-23.12.30:110][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.10.21-23.12.30:130][  0]LogAudioMixer: Display: Using Audio Device Speakers (2- HyperX Cloud Stinger Wireless)
-[2020.10.21-23.12.30:132][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.10.21-23.12.30:133][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.10.21-23.12.30:134][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.10.21-23.12.30:134][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.10.21-23.12.30:135][  0]LogInit: FAudioDevice initialized.
-[2020.10.21-23.12.30:135][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.10.21-23.12.30:177][  0]LogDerivedDataCache: Saved boot cache 0.04s 75MB C:/Users/robin/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.10.21-23.12.30:180][  0]LogInit: Texture streaming: Enabled
-[2020.10.21-23.12.30:192][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.10.21-23.12.30:192][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.10.21-23.12.30:193][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.10.21-23.12.30:238][  0]LogInit: Transaction tracking system initialized
-[2020.10.21-23.12.30:256][  0]BlueprintLog: New page: Editor Load
-[2020.10.21-23.12.30:316][  0]LocalizationService: Localization service is disabled
-[2020.10.21-23.12.30:380][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.10.21-23.12.30:381][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2020.10.21-23.12.30:440][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.10.21-23.12.30:440][  0]LogCook: Display: Mobile HDR setting 1
-[2020.10.21-23.12.30:447][  0]LogFileCache: Scanning file cache for directory 'D:/BlastMage/BlastMageProject/Content/' took 0.00s
-[2020.10.21-23.12.30:724][  0]SourceControl: Source control is disabled
-[2020.10.21-23.12.30:724][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.224
-[2020.10.21-23.12.30:724][  0]Cmd: MAP LOAD FILE="D:/BlastMage/BlastMageProject/Content/Gameplay/Maps/TEST_MAP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.10.21-23.12.30:725][  0]LightingResults: New page: Lighting Build
-[2020.10.21-23.12.30:726][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.10.21-23.12.30:726][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.10.21-23.12.30:726][  0]MapCheck: New page: Map Check
-[2020.10.21-23.12.30:726][  0]LightingResults: New page: Lighting Build
-[2020.10.21-23.12.30:736][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001939D2F4600), frame # 0
-[2020.10.21-23.12.30:736][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001939D2B3B00), frame # 0
-[2020.10.21-23.12.30:737][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
-[2020.10.21-23.12.30:801][  0]LogAIModule: Creating AISystem for world TEST_MAP
-[2020.10.21-23.12.30:801][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001938BEA5400), frame # 0
-[2020.10.21-23.12.30:801][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001938B59BD80), frame # 0
-[2020.10.21-23.12.30:811][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.10.21-23.12.30:822][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
-[2020.10.21-23.12.30:822][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.10.21-23.12.30:822][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.083ms to complete.
-[2020.10.21-23.12.30:822][  0]LogFileHelpers: Loading map 'TEST_MAP' took 0.098
-[2020.10.21-23.12.30:824][  0]LogUnrealEdMisc: Total Editor Startup Time, took 5.323
-[2020.10.21-23.12.30:916][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.21-23.12.30:923][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.21-23.12.30:930][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.21-23.12.30:936][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.10.21-23.12.30:942][  0]LogCollectionManager: Loaded 0 collections in 0.001169 seconds
-[2020.10.21-23.12.30:953][  0]LogFileCache: Scanning file cache for directory 'D:/BlastMage/BlastMageProject/Saved/Collections/' took 0.00s
-[2020.10.21-23.12.30:953][  0]LogFileCache: Scanning file cache for directory 'D:/BlastMage/BlastMageProject/Content/Developers/robin/Collections/' took 0.00s
-[2020.10.21-23.12.30:953][  0]LogFileCache: Scanning file cache for directory 'D:/BlastMage/BlastMageProject/Content/Collections/' took 0.00s
-[2020.10.21-23.12.30:953][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 3427 classes and 821 folders.
-[2020.10.21-23.12.30:955][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.10.21-23.12.30:992][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.10.21-23.12.30:994][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
-[2020.10.21-23.12.31:076][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.10.21-23.12.31:078][  0]LogSlate: Took 0.000100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.10.21-23.12.31:080][  0]LogSlate: Took 0.000086 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.10.21-23.12.31:134][  0]LogRenderer: Reallocating scene render targets to support 1188x548 Format 10 NumSamples 1 (Frame:1).
-[2020.10.21-23.12.31:230][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.10.21-23.12.31:230][  0]LogLoad: (Engine Initialization) Total time: 5.73 seconds
-[2020.10.21-23.12.31:230][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.10.21-23.12.31:280][  0]LogAssetRegistry: Asset discovery search completed in 2.6654 seconds
-[2020.10.21-23.12.31:283][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
-[2020.10.21-23.12.31:284][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.10.21-23.12.31:307][  0]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Engine.ini]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Engine.ini]
+[2020.10.21-23.14.22:553][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Engine.ini]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Engine.ini]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.10.21-23.14.22:553][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Engine.ini]
+[2020.10.21-23.14.22:553][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Engine.ini]
+[2020.10.21-23.14.22:555][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.21-23.14.22:555][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.21-23.14.22:556][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.21-23.14.22:556][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.21-23.14.22:557][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.10.21-23.14.22:557][  0]LogHAL: Display: Platform has ~ 32 GB [34154270720 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.10.21-23.14.22:557][  0]LogInit: Going up to parent DeviceProfile []
+[2020.10.21-23.14.22:557][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.10.21-23.14.22:557][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Scalability.ini]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.10.21-23.14.22:558][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/BlastMage/BlastMageProject/Saved/Config/Windows/Engine.ini]
+[2020.10.21-23.14.22:558][  0]LogInit: Computer: DESKTOP-AANOFUA
+[2020.10.21-23.14.22:558][  0]LogInit: User: robin
+[2020.10.21-23.14.22:558][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.10.21-23.14.22:558][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.10.21-23.14.22:559][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2020.10.21-23.14.22:559][  0]LogMemory: Platform Memory Stats for Windows
+[2020.10.21-23.14.22:559][  0]LogMemory: Process Physical Memory: 114.42 MB used, 114.42 MB peak
+[2020.10.21-23.14.22:559][  0]LogMemory: Process Virtual Memory: 97.00 MB used, 97.00 MB peak
+[2020.10.21-23.14.22:559][  0]LogMemory: Physical Memory: 12378.97 MB used,  20193.08 MB free, 32572.05 MB total
+[2020.10.21-23.14.22:559][  0]LogMemory: Virtual Memory: 5164.91 MB used,  134212560.00 MB free, 134217728.00 MB total
+[2020.10.21-23.14.22:564][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.10.21-23.14.22:587][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.10.21-23.14.22:587][  0]LogInit: Using OS detected language (en-US).
+[2020.10.21-23.14.22:587][  0]LogInit: Using OS detected locale (en-US).
+[2020.10.21-23.14.22:589][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.10.21-23.14.22:733][  0]LogInit: Setting process to per monitor DPI aware
+[2020.10.21-23.14.22:759][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.10.21-23.14.22:759][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.10.21-23.14.22:873][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.21-23.14.22:873][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.10.21-23.14.22:873][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.10.21-23.14.22:873][  0]LogD3D11RHI: D3D11 adapters:
+[2020.10.21-23.14.22:938][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
+[2020.10.21-23.14.22:938][  0]LogD3D11RHI:       5980/0/16286 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.10.21-23.14.22:957][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.10.21-23.14.22:957][  0]LogD3D11RHI:       128/0/16286 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.10.21-23.14.22:958][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.10.21-23.14.22:958][  0]LogD3D11RHI:       0/0/16286 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.10.21-23.14.22:958][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.10.21-23.14.22:972][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.10.21-23.14.22:972][  0]LogD3D11RHI:     GPU DeviceId: 0x1f11 (for the marketing name, search the web for "GPU Device Id")
+[2020.10.21-23.14.22:972][  0]LogWindows: EnumDisplayDevices:
+[2020.10.21-23.14.22:972][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.10.21-23.14.22:972][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.21-23.14.22:972][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.10.21-23.14.22:973][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2020.10.21-23.14.22:973][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2020.10.21-23.14.22:973][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2020.10.21-23.14.22:973][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2020.10.21-23.14.22:973][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.10.21-23.14.22:973][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2020.10.21-23.14.22:973][  0]LogD3D11RHI:   Driver Version: 442.59 (internal:26.21.14.4259, unified:442.59)
+[2020.10.21-23.14.22:973][  0]LogD3D11RHI:      Driver Date: 3-4-2020
+[2020.10.21-23.14.22:973][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
+[2020.10.21-23.14.23:006][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.10.21-23.14.23:008][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.10.21-23.14.23:008][  0]LogD3D11RHI: Async texture creation enabled
+[2020.10.21-23.14.23:008][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.10.21-23.14.23:020][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.10.21-23.14.23:215][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.10.21-23.14.23:231][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.10.21-23.14.23:231][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.10.21-23.14.23:231][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.10.21-23.14.23:231][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.10.21-23.14.23:231][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.10.21-23.14.23:231][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.10.21-23.14.23:231][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.10.21-23.14.23:231][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.10.21-23.14.23:231][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.10.21-23.14.23:231][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.10.21-23.14.23:249][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.10.21-23.14.23:249][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.10.21-23.14.23:257][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.10.21-23.14.23:263][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.10.21-23.14.23:270][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.10.21-23.14.23:277][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.10.21-23.14.23:284][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.10.21-23.14.23:291][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.10.21-23.14.23:298][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.10.21-23.14.23:318][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.10.21-23.14.23:318][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.10.21-23.14.23:330][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.10.21-23.14.23:330][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.10.21-23.14.23:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.10.21-23.14.23:348][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.10.21-23.14.23:354][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.10.21-23.14.23:362][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.10.21-23.14.23:362][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.10.21-23.14.23:367][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.10.21-23.14.23:409][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (D:/BlastMage/BlastMageProject/Intermediate/Shaders/WorkingDirectory/19400/).
+[2020.10.21-23.14.23:409][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/robin/AppData/Local/Temp/UnrealShaderWorkingDir/572942D2449D44A917E1F7873C221D1D/'.
+[2020.10.21-23.14.23:409][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.10.21-23.14.23:409][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.10.21-23.14.23:409][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.10.21-23.14.24:054][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.10.21-23.14.24:094][  0]LogDerivedDataCache: Loaded boot cache 0.04s 75MB C:/Users/robin/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.21-23.14.24:094][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/robin/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.10.21-23.14.24:094][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/BlastMage/BlastMageProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.10.21-23.14.24:094][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.10.21-23.14.24:094][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/BlastMage/BlastMageProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.21-23.14.24:094][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.10.21-23.14.24:103][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.10.21-23.14.24:103][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.10.21-23.14.24:103][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.10.21-23.14.24:104][  0]LogDerivedDataCache: Using Local data cache path C:/Users/robin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.10.21-23.14.24:104][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.10.21-23.14.24:104][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.10.21-23.14.24:147][  0]LogSlate: Using FreeType 2.10.0
+[2020.10.21-23.14.24:147][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.10.21-23.14.24:167][  0]LogAssetRegistry: FAssetRegistry took 0.0020 seconds to start up
+[2020.10.21-23.14.24:354][  0]LogInit: Selected Device Profile: [Windows]
+[2020.10.21-23.14.24:447][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.10.21-23.14.24:447][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.10.21-23.14.24:447][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.10.21-23.14.24:447][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.10.21-23.14.24:447][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.10.21-23.14.24:458][  0]LogNetVersion: BlastMageProject 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3112706182)
+[2020.10.21-23.14.24:801][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002039CCBCE00), frame # 0
+[2020.10.21-23.14.24:801][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002039CC3C900), frame # 0
+[2020.10.21-23.14.24:802][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002039CC65E00), frame # 0
+[2020.10.21-23.14.24:836][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.028685 seconds
+[2020.10.21-23.14.24:840][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.10.21-23.14.24:840][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.10.21-23.14.24:840][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.10.21-23.14.25:080][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.10.21-23.14.25:083][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.10.21-23.14.25:137][  0]SourceControl: Source control is disabled
+[2020.10.21-23.14.25:137][  0]SourceControl: Source control is disabled
+[2020.10.21-23.14.25:139][  0]SourceControl: Source control is disabled
+[2020.10.21-23.14.25:141][  0]SourceControl: Source control is disabled
+[2020.10.21-23.14.25:145][  0]SourceControl: Source control is disabled
+[2020.10.21-23.14.25:155][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.10.21-23.14.25:156][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.10.21-23.14.25:317][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.10.21-23.14.25:332][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.21-23.14.25:332][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.10.21-23.14.25:370][  0]LogOcInput: OculusInput pre-init called
+[2020.10.21-23.14.25:378][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.10.21-23.14.25:378][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.10.21-23.14.25:425][  0]LogEngine: Initializing Engine...
+[2020.10.21-23.14.25:426][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.10.21-23.14.25:426][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.10.21-23.14.25:427][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.10.21-23.14.25:520][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.10.21-23.14.25:525][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.10.21-23.14.25:525][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002039E8E0600), frame # 0
+[2020.10.21-23.14.25:525][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002039E8ED580), frame # 0
+[2020.10.21-23.14.25:537][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.21-23.14.25:537][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.21-23.14.25:537][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.21-23.14.25:537][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.21-23.14.25:537][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.21-23.14.25:537][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.21-23.14.25:537][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.21-23.14.25:537][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.21-23.14.25:537][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.21-23.14.25:537][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.21-23.14.25:547][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.21-23.14.25:547][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.10.21-23.14.25:569][  0]LogAudioMixer: Display: Using Audio Device Speakers (2- HyperX Cloud Stinger Wireless)
+[2020.10.21-23.14.25:570][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.21-23.14.25:572][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.21-23.14.25:572][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.21-23.14.25:573][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.21-23.14.25:574][  0]LogInit: FAudioDevice initialized.
+[2020.10.21-23.14.25:574][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.10.21-23.14.25:618][  0]LogDerivedDataCache: Saved boot cache 0.04s 75MB C:/Users/robin/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.10.21-23.14.25:621][  0]LogInit: Texture streaming: Enabled
+[2020.10.21-23.14.25:632][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.10.21-23.14.25:632][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.10.21-23.14.25:633][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.10.21-23.14.25:672][  0]LogInit: Transaction tracking system initialized
+[2020.10.21-23.14.25:687][  0]BlueprintLog: New page: Editor Load
+[2020.10.21-23.14.25:734][  0]LocalizationService: Localization service is disabled
+[2020.10.21-23.14.25:790][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.10.21-23.14.25:791][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.10.21-23.14.25:845][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.10.21-23.14.25:845][  0]LogCook: Display: Mobile HDR setting 1
+[2020.10.21-23.14.25:939][  0]LogFileCache: Scanning file cache for directory 'D:/BlastMage/BlastMageProject/Content/' took 0.00s
+[2020.10.21-23.14.26:120][  0]SourceControl: Source control is disabled
+[2020.10.21-23.14.26:120][  0]LogUnrealEdMisc: Loading editor; pre map load, took 4.630
+[2020.10.21-23.14.26:120][  0]Cmd: MAP LOAD FILE="D:/BlastMage/BlastMageProject/Content/Gameplay/Maps/TEST_MAP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.21-23.14.26:121][  0]LightingResults: New page: Lighting Build
+[2020.10.21-23.14.26:121][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-23.14.26:121][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.14.26:121][  0]MapCheck: New page: Map Check
+[2020.10.21-23.14.26:121][  0]LightingResults: New page: Lighting Build
+[2020.10.21-23.14.26:130][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002039E8E0600), frame # 0
+[2020.10.21-23.14.26:130][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002039E8ED580), frame # 0
+[2020.10.21-23.14.26:130][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.10.21-23.14.26:194][  0]LogAIModule: Creating AISystem for world TEST_MAP
+[2020.10.21-23.14.26:194][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002038DE3A400), frame # 0
+[2020.10.21-23.14.26:194][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020398B0B600), frame # 0
+[2020.10.21-23.14.26:207][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.21-23.14.26:218][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.10.21-23.14.26:218][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.21-23.14.26:218][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.11ms to complete.
+[2020.10.21-23.14.26:218][  0]LogFileHelpers: Loading map 'TEST_MAP' took 0.098
+[2020.10.21-23.14.26:220][  0]LogUnrealEdMisc: Total Editor Startup Time, took 4.729
+[2020.10.21-23.14.26:311][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.21-23.14.26:317][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.21-23.14.26:323][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.21-23.14.26:328][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.21-23.14.26:333][  0]LogCollectionManager: Loaded 0 collections in 0.001210 seconds
+[2020.10.21-23.14.26:343][  0]LogFileCache: Scanning file cache for directory 'D:/BlastMage/BlastMageProject/Saved/Collections/' took 0.00s
+[2020.10.21-23.14.26:343][  0]LogFileCache: Scanning file cache for directory 'D:/BlastMage/BlastMageProject/Content/Developers/robin/Collections/' took 0.00s
+[2020.10.21-23.14.26:343][  0]LogFileCache: Scanning file cache for directory 'D:/BlastMage/BlastMageProject/Content/Collections/' took 0.00s
+[2020.10.21-23.14.26:343][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 3427 classes and 821 folders.
+[2020.10.21-23.14.26:345][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.10.21-23.14.26:380][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.10.21-23.14.26:380][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2020.10.21-23.14.26:464][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.10.21-23.14.26:466][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.10.21-23.14.26:469][  0]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.10.21-23.14.26:523][  0]LogRenderer: Reallocating scene render targets to support 1188x548 Format 10 NumSamples 1 (Frame:1).
+[2020.10.21-23.14.26:622][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.10.21-23.14.26:622][  0]LogLoad: (Engine Initialization) Total time: 5.13 seconds
+[2020.10.21-23.14.26:622][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.10.21-23.14.26:664][  0]LogAssetRegistry: Asset discovery search completed in 2.4979 seconds
+[2020.10.21-23.14.26:668][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.10.21-23.14.26:669][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.10.21-23.14.26:734][  0]LogSlate: Took 0.000106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.21-23.14.37:102][620]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.21-23.14.37:115][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.21-23.14.37:115][620]PIE: New page: PIE session: TEST_MAP (Oct 21, 2020, 11:14:37 AM)
+[2020.10.21-23.14.37:116][620]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.10.21-23.14.37:116][620]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.10.21-23.14.37:117][620]LogPlayLevel: Creating play world package: /Game/Gameplay/Maps/UEDPIE_0_TEST_MAP
+[2020.10.21-23.14.37:127][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010514s)
+[2020.10.21-23.14.37:128][620]LogAIModule: Creating AISystem for world TEST_MAP
+[2020.10.21-23.14.37:128][620]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000203B7988C00), frame # 620
+[2020.10.21-23.14.37:128][620]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020398BEC180), frame # 620
+[2020.10.21-23.14.37:129][620]LogPlayLevel: PIE: World Init took: (0.001486s)
+[2020.10.21-23.14.37:129][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Gameplay/Maps/TEST_MAP.TEST_MAP to /Game/Gameplay/Maps/UEDPIE_0_TEST_MAP.TEST_MAP (0.012133s)
+[2020.10.21-23.14.37:142][620]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.10.21-23.14.37:143][620]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.21-23.14.37:143][620]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.21-23.14.37:143][620]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.21-23.14.37:143][620]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.21-23.14.37:143][620]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.21-23.14.37:143][620]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.21-23.14.37:143][620]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.21-23.14.37:143][620]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.21-23.14.37:144][620]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.21-23.14.37:144][620]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.21-23.14.37:145][620]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.21-23.14.37:145][620]LogAudioMixer: Display: 1: FrontRight
+[2020.10.21-23.14.37:153][620]LogAudioMixer: Display: Using Audio Device Speakers (2- HyperX Cloud Stinger Wireless)
+[2020.10.21-23.14.37:153][620]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.21-23.14.37:153][620]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.21-23.14.37:153][620]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.21-23.14.37:154][620]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.21-23.14.37:165][620]LogInit: FAudioDevice initialized.
+[2020.10.21-23.14.37:338][620]LogLoad: Game class is 'MAIN_GM_C'
+[2020.10.21-23.14.37:340][620]LogWorld: Bringing World /Game/Gameplay/Maps/UEDPIE_0_TEST_MAP.TEST_MAP up for play (max tick rate 60) at 2020.10.21-17.14.37
+[2020.10.21-23.14.37:340][620]LogWorld: Bringing up level for play took: 0.000614
+[2020.10.21-23.14.37:340][620]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2020.10.21-23.14.37:342][620]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.10.21-23.14.37:342][620]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2020.10.21-23.14.37:346][620]PIE: Server logged in
+[2020.10.21-23.14.37:346][620]PIE: Play in editor total start time 0.232 seconds.
+[2020.10.21-23.14.37:351][620]LogSlate: New Slate User Created.  User Index 1, Is Virtual User: 0
+[2020.10.21-23.14.37:351][620]LogSlate: Slate User Registered.  User Index 1, Is Virtual User: 0
+[2020.10.21-23.14.38:834][706]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.21-23.14.38:834][706]LogWorld: BeginTearingDown for /Game/Gameplay/Maps/UEDPIE_0_TEST_MAP
+[2020.10.21-23.14.38:835][706]LogWorld: UWorld::CleanupWorld for TEST_MAP, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-23.14.38:835][706]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.14.38:843][706]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.21-23.14.38:844][706]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.14.38:867][706]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.21-23.14.38:868][706]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020398BEC180), frame # 706
+[2020.10.21-23.14.38:868][706]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000203B7988C00), frame # 706
+[2020.10.21-23.14.38:870][706]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.10.21-23.14.38:905][708]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2020.10.21-23.14.46:868][184]LogSlate: Took 0.000094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.10.21-23.14.46:900][184]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MainMenu.MainMenu
+[2020.10.21-23.14.46:909][184]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.10.21-23.14.46:910][184]Cmd: MAP LOAD FILE="D:/BlastMage/BlastMageProject/Content/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.21-23.14.46:910][184]LightingResults: New page: Lighting Build
+[2020.10.21-23.14.46:910][184]LoadErrors: New page: Loading map: MainMenu.umap
+[2020.10.21-23.14.46:911][184]LogWorld: UWorld::CleanupWorld for TEST_MAP, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-23.14.46:911][184]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.14.46:911][184]MapCheck: New page: Map Check
+[2020.10.21-23.14.46:911][184]LightingResults: New page: Lighting Build
+[2020.10.21-23.14.46:920][184]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002038DE3A400), frame # 1184
+[2020.10.21-23.14.46:920][184]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020398B0B600), frame # 1184
+[2020.10.21-23.14.46:921][184]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.10.21-23.14.46:971][184]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.21-23.14.46:971][184]LogAIModule: Creating AISystem for world MainMenu
+[2020.10.21-23.14.46:971][184]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000203C6CF4600), frame # 1184
+[2020.10.21-23.14.46:971][184]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000203B0E93D80), frame # 1184
+[2020.10.21-23.14.46:981][184]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.10.21-23.14.47:002][184]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.21-23.14.47:002][184]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.076ms to complete.
+[2020.10.21-23.14.47:002][184]LogFileHelpers: Loading map 'MainMenu' took 0.092
+[2020.10.21-23.14.48:355][263]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.21-23.14.48:366][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.21-23.14.48:366][263]PIE: New page: PIE session: MainMenu (Oct 21, 2020, 11:14:48 AM)
+[2020.10.21-23.14.48:366][263]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenu
+[2020.10.21-23.14.48:368][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001803s)
+[2020.10.21-23.14.48:369][263]LogAIModule: Creating AISystem for world MainMenu
+[2020.10.21-23.14.48:369][263]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000203B76D2E00), frame # 1263
+[2020.10.21-23.14.48:369][263]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020398BE9F80), frame # 1263
+[2020.10.21-23.14.48:369][263]LogPlayLevel: PIE: World Init took: (0.000814s)
+[2020.10.21-23.14.48:369][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu.MainMenu to /Game/UEDPIE_0_MainMenu.MainMenu (0.002692s)
+[2020.10.21-23.14.48:378][263]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2020.10.21-23.14.48:379][263]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.21-23.14.48:379][263]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.21-23.14.48:379][263]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.21-23.14.48:379][263]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.21-23.14.48:379][263]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.21-23.14.48:379][263]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.21-23.14.48:379][263]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.21-23.14.48:379][263]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.21-23.14.48:379][263]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.21-23.14.48:379][263]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.21-23.14.48:381][263]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.21-23.14.48:381][263]LogAudioMixer: Display: 1: FrontRight
+[2020.10.21-23.14.48:389][263]LogAudioMixer: Display: Using Audio Device Speakers (2- HyperX Cloud Stinger Wireless)
+[2020.10.21-23.14.48:389][263]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.21-23.14.48:389][263]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.21-23.14.48:389][263]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.21-23.14.48:389][263]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.21-23.14.48:401][263]LogInit: FAudioDevice initialized.
+[2020.10.21-23.14.48:407][263]LogLoad: Game class is 'MAIN_GM_C'
+[2020.10.21-23.14.48:408][263]LogWorld: Bringing World /Game/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2020.10.21-17.14.48
+[2020.10.21-23.14.48:408][263]LogWorld: Bringing up level for play took: 0.000373
+[2020.10.21-23.14.48:408][263]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2020.10.21-23.14.48:410][263]PIE: Server logged in
+[2020.10.21-23.14.48:411][263]PIE: Play in editor total start time 0.045 seconds.
+[2020.10.21-23.14.49:604][335]LogNet: Browse: /Game/ThirdPersonBP/Maps/Level2
+[2020.10.21-23.14.49:605][335]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Level2
+[2020.10.21-23.14.49:605][335]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMenu
+[2020.10.21-23.14.49:605][335]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-23.14.49:605][335]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.14.49:614][335]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020398BE9F80), frame # 1335
+[2020.10.21-23.14.49:614][335]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000203B76D2E00), frame # 1335
+[2020.10.21-23.14.49:615][335]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.10.21-23.14.49:619][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/Blueprints/Trap.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter': Can't find file.
+[2020.10.21-23.14.49:619][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/Blueprints/Trap.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter': Can't find file.
+[2020.10.21-23.14.49:620][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/Blueprints/Trap.uasset' failed to load '/Game/StarterContent/Materials/M_Brick_Clay_Old': Can't find file.
+[2020.10.21-23.14.49:620][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/Blueprints/Trap.uasset' failed to load '/Game/StarterContent/Materials/M_Brick_Clay_Old': Can't find file.
+[2020.10.21-23.14.49:620][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/StarterContent/Architecture/Floor_400x400.uasset' failed to load '/Game/StarterContent/Materials/M_Basic_Floor': Can't find file.
+[2020.10.21-23.14.49:620][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/StarterContent/Architecture/Floor_400x400.uasset' failed to load '/Game/StarterContent/Materials/M_Basic_Floor': Can't find file.
+[2020.10.21-23.14.49:620][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/StarterContent/Architecture/Floor_400x400.uasset' failed to load '/Game/StarterContent/Materials/M_Basic_Floor': Can't find file.
+[2020.10.21-23.14.49:620][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/StarterContent/Architecture/Floor_400x400.uasset' failed to load '/Game/StarterContent/Materials/M_Basic_Floor': Can't find file.
+[2020.10.21-23.14.49:620][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/Blueprints/Trap.uasset' failed to load '/Game/StarterContent/Materials/M_Brick_Clay_Old': Can't find file.
+[2020.10.21-23.14.49:620][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/Blueprints/Trap.uasset' failed to load '/Game/StarterContent/Materials/M_Brick_Clay_Old': Can't find file.
+[2020.10.21-23.14.49:621][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/Blueprints/Trap.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter': Can't find file.
+[2020.10.21-23.14.49:621][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/Blueprints/Trap.uasset' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter': Can't find file.
+[2020.10.21-23.14.49:621][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level2.umap' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter': Can't find file.
+[2020.10.21-23.14.49:621][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level2.umap' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter': Can't find file.
+[2020.10.21-23.14.49:621][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level2.umap' failed to load '/Game/StarterContent/Materials/M_Brick_Clay_Old': Can't find file.
+[2020.10.21-23.14.49:621][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level2.umap' failed to load '/Game/StarterContent/Materials/M_Brick_Clay_Old': Can't find file.
+[2020.10.21-23.14.49:621][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level2.umap' failed to load '/Game/StarterContent/Materials/M_Brick_Clay_Old': Can't find file.
+[2020.10.21-23.14.49:621][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level2.umap' failed to load '/Game/StarterContent/Materials/M_Brick_Clay_Old': Can't find file.
+[2020.10.21-23.14.49:621][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level2.umap' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter': Can't find file.
+[2020.10.21-23.14.49:621][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level2.umap' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter': Can't find file.
+[2020.10.21-23.14.49:622][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level2.umap' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter': Can't find file.
+[2020.10.21-23.14.49:622][335]LoadErrors: Failed to load /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C Referenced by K2Node_DynamicCast_0
+[2020.10.21-23.14.49:622][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level2.umap' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter': Can't find file.
+[2020.10.21-23.14.49:622][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level2.umap' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter': Can't find file.
+[2020.10.21-23.14.49:622][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level2.umap' failed to load '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter': Can't find file.
+[2020.10.21-23.14.49:623][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level2.umap' failed to load '/Game/StarterContent/Materials/M_Brick_Clay_Old': Can't find file.
+[2020.10.21-23.14.49:623][335]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Brick_Clay_Old.M_Brick_Clay_Old Referenced by StaticMesh_GEN_VARIABLE
+[2020.10.21-23.14.49:623][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level2.umap' failed to load '/Game/StarterContent/Materials/M_Brick_Clay_Old': Can't find file.
+[2020.10.21-23.14.49:630][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/StarterContent/Architecture/Wall_400x400.uasset' failed to load '/Game/StarterContent/Materials/M_Basic_Wall': Can't find file.
+[2020.10.21-23.14.49:630][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/StarterContent/Architecture/Wall_400x400.uasset' failed to load '/Game/StarterContent/Materials/M_Basic_Wall': Can't find file.
+[2020.10.21-23.14.49:630][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/StarterContent/Architecture/Wall_400x400.uasset' failed to load '/Game/StarterContent/Materials/M_Basic_Wall': Can't find file.
+[2020.10.21-23.14.49:630][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/StarterContent/Architecture/Wall_400x400.uasset' failed to load '/Game/StarterContent/Materials/M_Basic_Wall': Can't find file.
+[2020.10.21-23.14.49:651][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/StarterContent/Architecture/Floor_400x400.uasset' failed to load '/Game/StarterContent/Materials/M_Basic_Floor': Can't find file.
+[2020.10.21-23.14.49:651][335]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor Referenced by Floor_400x400
+[2020.10.21-23.14.49:651][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/StarterContent/Architecture/Floor_400x400.uasset' failed to load '/Game/StarterContent/Materials/M_Basic_Floor': Can't find file.
+[2020.10.21-23.14.49:652][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/StarterContent/Architecture/Floor_400x400.uasset' failed to load '/Game/StarterContent/Materials/M_Basic_Floor': Can't find file.
+[2020.10.21-23.14.49:652][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/StarterContent/Architecture/Floor_400x400.uasset' failed to load '/Game/StarterContent/Materials/M_Basic_Floor': Can't find file.
+[2020.10.21-23.14.49:667][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/StarterContent/Architecture/Wall_400x400.uasset' failed to load '/Game/StarterContent/Materials/M_Basic_Wall': Can't find file.
+[2020.10.21-23.14.49:668][335]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall Referenced by Wall_400x400
+[2020.10.21-23.14.49:668][335]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/StarterContent/Architecture/Wall_400x400.uasset' failed to load '/Game/StarterContent/Materials/M_Basic_Wall': Can't find file.
+[2020.10.21-23.14.49:699][335]LogAIModule: Creating AISystem for world Level2
+[2020.10.21-23.14.49:700][335]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000203C6C81000), frame # 1335
+[2020.10.21-23.14.49:700][335]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020398A1F740), frame # 1335
+[2020.10.21-23.14.49:700][335]LogLoad: Game class is 'MAIN_GM_C'
+[2020.10.21-23.14.49:743][335]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2020.10.21-17.14.49
+[2020.10.21-23.14.49:744][335]LogWorld: Bringing up level for play took: 0.043016
+[2020.10.21-23.14.49:747][335]LogLoad: Took 0.142270 seconds to LoadMap(/Game/ThirdPersonBP/Maps/Level2)
+[2020.10.21-23.14.55:885][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.21-23.14.55:885][553]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_Level2
+[2020.10.21-23.14.55:885][553]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-23.14.55:887][553]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.14.55:906][553]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.21-23.14.55:908][553]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.14.55:917][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.21-23.14.55:938][553]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000203C6C81000), frame # 1553
+[2020.10.21-23.14.55:938][553]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020398A1F740), frame # 1553
+[2020.10.21-23.14.55:939][553]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.10.21-23.14.55:961][554]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.10.21-23.14.56:912][611]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2020.10.21-23.15.00:903][840]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPersonBP/Maps/Level2.Level2
+[2020.10.21-23.15.00:916][840]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.10.21-23.15.00:917][840]Cmd: MAP LOAD FILE="D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.21-23.15.00:918][840]LightingResults: New page: Lighting Build
+[2020.10.21-23.15.00:918][840]LoadErrors: New page: Loading map: Level2.umap
+[2020.10.21-23.15.00:919][840]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-23.15.00:919][840]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.15.00:919][840]MapCheck: New page: Map Check
+[2020.10.21-23.15.00:919][840]LightingResults: New page: Lighting Build
+[2020.10.21-23.15.00:928][840]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000203B0E93D80), frame # 1840
+[2020.10.21-23.15.00:928][840]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000203C6CF4600), frame # 1840
+[2020.10.21-23.15.00:929][840]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.10.21-23.15.01:088][840]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.21-23.15.01:088][840]LogAIModule: Creating AISystem for world Level2
+[2020.10.21-23.15.01:088][840]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000204097B5C00), frame # 1840
+[2020.10.21-23.15.01:088][840]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000203C36A2340), frame # 1840
+[2020.10.21-23.15.01:103][840]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.10.21-23.15.01:123][840]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.21-23.15.01:124][840]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.119ms to complete.
+[2020.10.21-23.15.01:124][840]LogFileHelpers: Loading map 'Level2' took 0.206
+[2020.10.21-23.17.32:670][302]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/TwinStickBP/Blueprints/TwinStickProjectile.uasset' failed to load '/Game/TwinStick/Meshes/TwinStickProjectile': Can't find file.
+[2020.10.21-23.17.32:670][302]LoadErrors: Failed to load /Game/TwinStick/Meshes/TwinStickProjectile.TwinStickProjectile Referenced by StaticMeshComponent_253
+[2020.10.21-23.17.32:670][302]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/TwinStickBP/Blueprints/TwinStickProjectile.uasset' failed to load '/Game/TwinStick/Meshes/TwinStickProjectile': Can't find file.
+[2020.10.21-23.17.32:670][302]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/TwinStickBP/Blueprints/TwinStickProjectile.uasset' failed to load '/Game/TwinStick/Meshes/TwinStickProjectile': Can't find file.
+[2020.10.21-23.17.32:670][302]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/TwinStickBP/Blueprints/TwinStickProjectile.uasset' failed to load '/Game/TwinStick/Meshes/TwinStickProjectile': Can't find file.
+[2020.10.21-23.17.32:670][302]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/TwinStickBP/Blueprints/TwinStickProjectile.uasset' failed to load '/Game/TwinStick/Meshes/TwinStickProjectile': Can't find file.
+[2020.10.21-23.17.32:671][302]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/TwinStickBP/Blueprints/TwinStickProjectile.uasset' failed to load '/Game/TwinStick/Meshes/TwinStickProjectile': Can't find file.
+[2020.10.21-23.17.32:682][302]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] InputAction Event references unknown Action 'Shoot' for  InputAction Shoot
+[2020.10.21-23.17.32:692][302]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/TwinStickBP/Blueprints/TwinStickProjectile.uasset' failed to load '/Game/TwinStick/Meshes/TwinStickProjectile': Can't find file.
+[2020.10.21-23.17.32:692][302]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/TwinStickBP/Blueprints/TwinStickProjectile.uasset' failed to load '/Game/TwinStick/Meshes/TwinStickProjectile': Can't find file.
+[2020.10.21-23.17.32:692][302]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/TwinStickBP/Blueprints/TwinStickProjectile.uasset' failed to load '/Game/TwinStick/Meshes/TwinStickProjectile': Can't find file.
+[2020.10.21-23.17.32:692][302]LogLinker: Warning: While loading 'D:/BlastMage/BlastMageProject/Content/TwinStickBP/Blueprints/TwinStickProjectile.uasset' failed to load '/Game/TwinStick/Meshes/TwinStickProjectile': Can't find file.
+[2020.10.21-23.17.32:814][302]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPersonBP/Maps/Level1.Level1
+[2020.10.21-23.17.32:825][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.10.21-23.17.32:827][302]Cmd: MAP LOAD FILE="D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.21-23.17.32:828][302]LightingResults: New page: Lighting Build
+[2020.10.21-23.17.32:828][302]LoadErrors: New page: Loading map: Level1.umap
+[2020.10.21-23.17.32:831][302]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-23.17.32:831][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.17.32:832][302]MapCheck: New page: Map Check
+[2020.10.21-23.17.32:832][302]LightingResults: New page: Lighting Build
+[2020.10.21-23.17.32:843][302]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000203C36A2340), frame # 3302
+[2020.10.21-23.17.32:843][302]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000204097B5C00), frame # 3302
+[2020.10.21-23.17.32:845][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.10.21-23.17.33:059][302]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.21-23.17.33:059][302]LogAIModule: Creating AISystem for world Level1
+[2020.10.21-23.17.33:059][302]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002041249E200), frame # 3302
+[2020.10.21-23.17.33:059][302]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002040AF62480), frame # 3302
+[2020.10.21-23.17.33:071][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.10.21-23.17.33:091][302]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.21-23.17.33:092][302]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.891ms to complete.
+[2020.10.21-23.17.33:092][302]LogFileHelpers: Loading map 'Level1' took 0.265
+[2020.10.21-23.17.37:301][496]LogEditorViewport: Clicking on Actor (LMB): Trap_C (Trap75)
+[2020.10.21-23.18.24:029][431]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.10.21-23.19.28:426][ 74]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshes/lavablock.lavablock
+[2020.10.21-23.19.28:720][ 74]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-23.19.28:720][ 74]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.19.28:872][ 74]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.10.21-23.19.30:658][135]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Dungeon_Pipe_FlowingLava_Cool.M_Dungeon_Pipe_FlowingLava_Cool
+[2020.10.21-23.19.30:662][135]LogMaterial: Display: Missing cached shader map for material M_Dungeon_Pipe_FlowingLava_Cool, compiling. 
+[2020.10.21-23.19.30:737][135]LogMaterial: Display: Missing cached shader map for material M_Dungeon_Pipe_FlowingLava_Cool, compiling. 
+[2020.10.21-23.19.30:746][135]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2020.10.21-23.19.30:746][135]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.10.21-23.19.30:749][135]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2020.10.21-23.19.30:758][135]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2020.10.21-23.19.30:758][135]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2020.10.21-23.19.30:758][135]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2020.10.21-23.19.30:758][135]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2020.10.21-23.19.30:790][135]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.10.21-23.19.31:546][151]MaterialEditorStats: Base pass shader without light map: 38 instructions
+[2020.10.21-23.19.31:546][151]MaterialEditorStats: Base pass vertex shader: 47 instructions
+[2020.10.21-23.19.31:546][151]MaterialEditorStats: Texture samplers: 1/16
+[2020.10.21-23.19.31:546][151]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.10.21-23.19.31:546][151]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.10.21-23.21.09:151][643]LogSlate: Window 'Message' being destroyed
+[2020.10.21-23.21.09:157][643]Message dialog closed, result: No, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Dungeon_Pipe_FlowingLava_Cool.M_Dungeon_Pipe_FlowingLava_Cool
+(Selecting 'No' will cause all changes to be lost!)
+[2020.10.21-23.21.09:159][643]LogSlate: Window 'M_Dungeon_Pipe_FlowingLava_Cool' being destroyed
+[2020.10.21-23.21.09:161][643]LogSlate: Window 'M_Dungeon_Pipe_FlowingLava_Cool' being destroyed
+[2020.10.21-23.21.09:175][643]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-23.21.09:175][643]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.21.09:293][643]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-23.21.09:293][643]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.22.51:387][347]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1M_Cube3)
+[2020.10.21-23.25.55:004][428]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MainMenu.MainMenu
+[2020.10.21-23.25.55:016][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.10.21-23.25.56:670][428]LogSlate: Window 'Save Content' being destroyed
+[2020.10.21-23.25.56:680][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Level1" FILE="D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.21-23.25.56:691][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.10.21-23.25.56:776][428]LogSavePackage: Moving 'D:/BlastMage/BlastMageProject/Saved/Level1596CA6C64EF0318D51F99D93890102B4.tmp' to 'D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level1.umap'
+[2020.10.21-23.25.56:800][428]LogFileHelpers: Saving map 'Level1' took 0.120
+[2020.10.21-23.25.56:800][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Level1_BuiltData" FILE="D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level1_BuiltData.uasset" SILENT=true
+[2020.10.21-23.25.56:978][428]LogSavePackage: Moving 'D:/BlastMage/BlastMageProject/Saved/Level1_BuiltData51A583524B03E149E2C0A7A36D548CFD.tmp' to 'D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level1_BuiltData.uasset'
+[2020.10.21-23.25.56:979][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Level1_BuiltData" FILE="D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level1_BuiltData.uasset" SILENT=true
+[2020.10.21-23.25.57:050][428]LogSavePackage: Moving 'D:/BlastMage/BlastMageProject/Saved/Level1_BuiltDataE8E35A414BC9A0C1D286F2A2CD4B2CD4.tmp' to 'D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level1_BuiltData.uasset'
+[2020.10.21-23.25.57:050][428]Cmd: MAP LOAD FILE="D:/BlastMage/BlastMageProject/Content/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.21-23.25.57:050][428]LightingResults: New page: Lighting Build
+[2020.10.21-23.25.57:050][428]LoadErrors: New page: Loading map: MainMenu.umap
+[2020.10.21-23.25.57:053][428]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-23.25.57:053][428]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.25.57:053][428]MapCheck: New page: Map Check
+[2020.10.21-23.25.57:053][428]LightingResults: New page: Lighting Build
+[2020.10.21-23.25.57:067][428]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002040AF62480), frame # 21428
+[2020.10.21-23.25.57:067][428]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002041249E200), frame # 21428
+[2020.10.21-23.25.57:068][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.10.21-23.25.57:160][428]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.21-23.25.57:160][428]LogAIModule: Creating AISystem for world MainMenu
+[2020.10.21-23.25.57:160][428]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002044294E200), frame # 21428
+[2020.10.21-23.25.57:160][428]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020409151E40), frame # 21428
+[2020.10.21-23.25.57:171][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.10.21-23.25.57:193][428]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.21-23.25.57:193][428]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.098ms to complete.
+[2020.10.21-23.25.57:193][428]LogFileHelpers: Loading map 'MainMenu' took 0.143
+[2020.10.21-23.25.57:231][428]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.21-23.25.57:232][428]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/Level1.Level1
+[2020.10.21-23.25.57:301][428]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/Level1_BuiltData.Level1_BuiltData
+[2020.10.21-23.25.59:074][534]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.21-23.25.59:086][534]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.21-23.25.59:086][534]PIE: New page: PIE session: MainMenu (Oct 21, 2020, 11:25:59 AM)
+[2020.10.21-23.25.59:086][534]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenu
+[2020.10.21-23.25.59:088][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001928s)
+[2020.10.21-23.25.59:089][534]LogAIModule: Creating AISystem for world MainMenu
+[2020.10.21-23.25.59:089][534]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000204144DAA00), frame # 21534
+[2020.10.21-23.25.59:089][534]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000203B7751D00), frame # 21534
+[2020.10.21-23.25.59:089][534]LogPlayLevel: PIE: World Init took: (0.000959s)
+[2020.10.21-23.25.59:089][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu.MainMenu to /Game/UEDPIE_0_MainMenu.MainMenu (0.002963s)
+[2020.10.21-23.25.59:102][534]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.10.21-23.25.59:103][534]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.21-23.25.59:103][534]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.21-23.25.59:103][534]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.21-23.25.59:103][534]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.21-23.25.59:103][534]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.21-23.25.59:103][534]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.21-23.25.59:103][534]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.21-23.25.59:103][534]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.21-23.25.59:103][534]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.21-23.25.59:103][534]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.21-23.25.59:105][534]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.21-23.25.59:105][534]LogAudioMixer: Display: 1: FrontRight
+[2020.10.21-23.25.59:115][534]LogAudioMixer: Display: Using Audio Device Speakers (2- HyperX Cloud Stinger Wireless)
+[2020.10.21-23.25.59:115][534]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.21-23.25.59:115][534]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.21-23.25.59:115][534]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.21-23.25.59:116][534]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.21-23.25.59:128][534]LogInit: FAudioDevice initialized.
+[2020.10.21-23.25.59:135][534]LogLoad: Game class is 'MAIN_GM_C'
+[2020.10.21-23.25.59:136][534]LogWorld: Bringing World /Game/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2020.10.21-17.25.59
+[2020.10.21-23.25.59:136][534]LogWorld: Bringing up level for play took: 0.000375
+[2020.10.21-23.25.59:137][534]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.10.21-23.25.59:138][534]PIE: Server logged in
+[2020.10.21-23.25.59:139][534]PIE: Play in editor total start time 0.053 seconds.
+[2020.10.21-23.26.04:653][863]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.21-23.26.04:653][863]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMenu
+[2020.10.21-23.26.04:653][863]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-23.26.04:653][863]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.26.04:663][863]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.21-23.26.04:665][863]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.26.04:687][863]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.21-23.26.04:688][863]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000203B7751D00), frame # 21863
+[2020.10.21-23.26.04:688][863]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000204144DAA00), frame # 21863
+[2020.10.21-23.26.04:689][863]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.10.21-23.26.04:729][865]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.10.21-23.26.05:762][927]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.21-23.26.05:775][927]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.21-23.26.05:775][927]PIE: New page: PIE session: MainMenu (Oct 21, 2020, 11:26:05 AM)
+[2020.10.21-23.26.05:812][927]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenu
+[2020.10.21-23.26.05:814][927]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001870s)
+[2020.10.21-23.26.05:815][927]LogAIModule: Creating AISystem for world MainMenu
+[2020.10.21-23.26.05:815][927]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002040AF48C00), frame # 21927
+[2020.10.21-23.26.05:815][927]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020398B57C40), frame # 21927
+[2020.10.21-23.26.05:815][927]LogPlayLevel: PIE: World Init took: (0.000854s)
+[2020.10.21-23.26.05:815][927]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu.MainMenu to /Game/UEDPIE_0_MainMenu.MainMenu (0.002837s)
+[2020.10.21-23.26.05:824][927]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2020.10.21-23.26.05:825][927]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.21-23.26.05:825][927]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.21-23.26.05:825][927]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.21-23.26.05:825][927]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.21-23.26.05:825][927]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.21-23.26.05:825][927]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.21-23.26.05:825][927]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.21-23.26.05:825][927]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.21-23.26.05:826][927]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.21-23.26.05:826][927]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.21-23.26.05:827][927]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.21-23.26.05:827][927]LogAudioMixer: Display: 1: FrontRight
+[2020.10.21-23.26.05:835][927]LogAudioMixer: Display: Using Audio Device Speakers (2- HyperX Cloud Stinger Wireless)
+[2020.10.21-23.26.05:835][927]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.21-23.26.05:835][927]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.21-23.26.05:836][927]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.21-23.26.05:836][927]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.21-23.26.05:847][927]LogInit: FAudioDevice initialized.
+[2020.10.21-23.26.05:859][927]LogLoad: Game class is 'MAIN_GM_C'
+[2020.10.21-23.26.05:860][927]LogWorld: Bringing World /Game/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2020.10.21-17.26.05
+[2020.10.21-23.26.05:860][927]LogWorld: Bringing up level for play took: 0.000391
+[2020.10.21-23.26.05:860][927]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.10.21-23.26.05:862][927]PIE: Server logged in
+[2020.10.21-23.26.05:863][927]PIE: Play in editor total start time 0.088 seconds.
+[2020.10.21-23.26.07:358][ 17]LogNet: Browse: /Game/ThirdPersonBP/Maps/Level2
+[2020.10.21-23.26.07:358][ 17]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Level2
+[2020.10.21-23.26.07:358][ 17]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMenu
+[2020.10.21-23.26.07:358][ 17]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-23.26.07:358][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.26.07:392][ 17]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020398B57C40), frame # 22017
+[2020.10.21-23.26.07:392][ 17]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002040AF48C00), frame # 22017
+[2020.10.21-23.26.07:392][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.10.21-23.26.07:454][ 17]LogAIModule: Creating AISystem for world Level2
+[2020.10.21-23.26.07:454][ 17]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002042F216C00), frame # 22017
+[2020.10.21-23.26.07:454][ 17]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000203C8FB2200), frame # 22017
+[2020.10.21-23.26.07:454][ 17]LogLoad: Game class is 'MAIN_GM_C'
+[2020.10.21-23.26.07:496][ 17]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2020.10.21-17.26.07
+[2020.10.21-23.26.07:496][ 17]LogWorld: Bringing up level for play took: 0.041390
+[2020.10.21-23.26.07:498][ 17]LogLoad: Took 0.140888 seconds to LoadMap(/Game/ThirdPersonBP/Maps/Level2)
+[2020.10.21-23.26.09:563][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.21-23.26.09:563][ 80]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_Level2
+[2020.10.21-23.26.09:564][ 80]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-23.26.09:566][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.26.09:579][ 80]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.21-23.26.09:581][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.26.09:593][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.21-23.26.09:609][ 80]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000203C8FB2200), frame # 22080
+[2020.10.21-23.26.09:610][ 80]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002042F216C00), frame # 22080
+[2020.10.21-23.26.09:611][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.10.21-23.26.09:634][ 81]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.10.21-23.26.12:802][271]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.21-23.26.12:815][271]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.21-23.26.12:815][271]PIE: New page: PIE session: MainMenu (Oct 21, 2020, 11:26:12 AM)
+[2020.10.21-23.26.12:852][271]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenu
+[2020.10.21-23.26.12:855][271]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002127s)
+[2020.10.21-23.26.12:856][271]LogAIModule: Creating AISystem for world MainMenu
+[2020.10.21-23.26.12:856][271]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020441F10E00), frame # 22271
+[2020.10.21-23.26.12:856][271]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020398A1F380), frame # 22271
+[2020.10.21-23.26.12:856][271]LogPlayLevel: PIE: World Init took: (0.001071s)
+[2020.10.21-23.26.12:856][271]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu.MainMenu to /Game/UEDPIE_0_MainMenu.MainMenu (0.003362s)
+[2020.10.21-23.26.12:866][271]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.10.21-23.26.12:867][271]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.21-23.26.12:867][271]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.21-23.26.12:867][271]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.21-23.26.12:867][271]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.21-23.26.12:867][271]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.21-23.26.12:867][271]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.21-23.26.12:867][271]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.21-23.26.12:867][271]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.21-23.26.12:867][271]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.21-23.26.12:867][271]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.21-23.26.12:869][271]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.21-23.26.12:869][271]LogAudioMixer: Display: 1: FrontRight
+[2020.10.21-23.26.12:877][271]LogAudioMixer: Display: Using Audio Device Speakers (2- HyperX Cloud Stinger Wireless)
+[2020.10.21-23.26.12:877][271]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.21-23.26.12:877][271]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.21-23.26.12:877][271]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.21-23.26.12:877][271]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.21-23.26.12:889][271]LogInit: FAudioDevice initialized.
+[2020.10.21-23.26.12:900][271]LogLoad: Game class is 'MAIN_GM_C'
+[2020.10.21-23.26.12:901][271]LogWorld: Bringing World /Game/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2020.10.21-17.26.12
+[2020.10.21-23.26.12:901][271]LogWorld: Bringing up level for play took: 0.000407
+[2020.10.21-23.26.12:901][271]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.10.21-23.26.12:903][271]PIE: Server logged in
+[2020.10.21-23.26.12:904][271]PIE: Play in editor total start time 0.089 seconds.
+[2020.10.21-23.26.14:123][343]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.21-23.26.14:123][343]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMenu
+[2020.10.21-23.26.14:123][343]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-23.26.14:123][343]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.26.14:132][343]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.21-23.26.14:134][343]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.26.14:148][343]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.21-23.26.14:164][343]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020398A1F380), frame # 22343
+[2020.10.21-23.26.14:164][343]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020441F10E00), frame # 22343
+[2020.10.21-23.26.14:165][343]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.10.21-23.26.14:200][345]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.10.21-23.26.21:073][751]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.21-23.26.21:087][751]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.21-23.26.21:087][751]PIE: New page: PIE session: MainMenu (Oct 21, 2020, 11:26:21 AM)
+[2020.10.21-23.26.21:087][751]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenu
+[2020.10.21-23.26.21:089][751]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001923s)
+[2020.10.21-23.26.21:090][751]LogAIModule: Creating AISystem for world MainMenu
+[2020.10.21-23.26.21:090][751]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002043004C800), frame # 22751
+[2020.10.21-23.26.21:090][751]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020438C851C0), frame # 22751
+[2020.10.21-23.26.21:090][751]LogPlayLevel: PIE: World Init took: (0.001159s)
+[2020.10.21-23.26.21:090][751]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu.MainMenu to /Game/UEDPIE_0_MainMenu.MainMenu (0.003170s)
+[2020.10.21-23.26.21:100][751]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.10.21-23.26.21:101][751]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.21-23.26.21:101][751]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.21-23.26.21:101][751]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.21-23.26.21:101][751]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.21-23.26.21:101][751]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.21-23.26.21:101][751]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.21-23.26.21:101][751]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.21-23.26.21:101][751]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.21-23.26.21:101][751]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.21-23.26.21:101][751]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.21-23.26.21:103][751]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.21-23.26.21:103][751]LogAudioMixer: Display: 1: FrontRight
+[2020.10.21-23.26.21:110][751]LogAudioMixer: Display: Using Audio Device Speakers (2- HyperX Cloud Stinger Wireless)
+[2020.10.21-23.26.21:110][751]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.21-23.26.21:110][751]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.21-23.26.21:110][751]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.21-23.26.21:111][751]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.21-23.26.21:122][751]LogInit: FAudioDevice initialized.
+[2020.10.21-23.26.21:130][751]LogLoad: Game class is 'MAIN_GM_C'
+[2020.10.21-23.26.21:131][751]LogWorld: Bringing World /Game/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2020.10.21-17.26.21
+[2020.10.21-23.26.21:131][751]LogWorld: Bringing up level for play took: 0.000381
+[2020.10.21-23.26.21:131][751]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2020.10.21-23.26.21:132][751]PIE: Server logged in
+[2020.10.21-23.26.21:133][751]PIE: Play in editor total start time 0.047 seconds.
+[2020.10.21-23.26.26:095][ 49]LogNet: Browse: /Game/ThirdPersonBP/Maps/Level2
+[2020.10.21-23.26.26:095][ 49]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Level2
+[2020.10.21-23.26.26:095][ 49]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMenu
+[2020.10.21-23.26.26:095][ 49]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-23.26.26:095][ 49]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.26.26:104][ 49]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020438C851C0), frame # 23049
+[2020.10.21-23.26.26:104][ 49]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002043004C800), frame # 23049
+[2020.10.21-23.26.26:105][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.10.21-23.26.26:167][ 49]LogAIModule: Creating AISystem for world Level2
+[2020.10.21-23.26.26:167][ 49]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002042F216400), frame # 23049
+[2020.10.21-23.26.26:167][ 49]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020438DC8680), frame # 23049
+[2020.10.21-23.26.26:168][ 49]LogLoad: Game class is 'MAIN_GM_C'
+[2020.10.21-23.26.26:208][ 49]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2020.10.21-17.26.26
+[2020.10.21-23.26.26:209][ 49]LogWorld: Bringing up level for play took: 0.040408
+[2020.10.21-23.26.26:211][ 49]LogLoad: Took 0.115777 seconds to LoadMap(/Game/ThirdPersonBP/Maps/Level2)
+[2020.10.21-23.26.38:975][463]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPersonBP/Maps/Level1.Level1
+[2020.10.21-23.26.39:008][463]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.10.21-23.26.41:762][463]LogSlate: Window 'Message' being destroyed
+[2020.10.21-23.26.41:767][463]Message dialog closed, result: Yes, title: Message, text: This action will terminate your Play In Editor session.  Continue?
+[2020.10.21-23.26.41:767][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.21-23.26.41:768][463]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_Level2
+[2020.10.21-23.26.41:768][463]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-23.26.41:770][463]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.26.41:775][463]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.21-23.26.41:777][463]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.26.41:804][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.21-23.26.41:806][463]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020438DC8680), frame # 23463
+[2020.10.21-23.26.41:806][463]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002042F216400), frame # 23463
+[2020.10.21-23.26.41:807][463]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2020.10.21-23.26.41:820][463]Cmd: MAP LOAD FILE="D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.21-23.26.41:840][463]LightingResults: New page: Lighting Build
+[2020.10.21-23.26.41:840][463]LoadErrors: New page: Loading map: Level1.umap
+[2020.10.21-23.26.41:841][463]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-23.26.41:841][463]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.26.41:841][463]MapCheck: New page: Map Check
+[2020.10.21-23.26.41:841][463]LightingResults: New page: Lighting Build
+[2020.10.21-23.26.41:850][463]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020409151E40), frame # 23463
+[2020.10.21-23.26.41:851][463]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002044294E200), frame # 23463
+[2020.10.21-23.26.41:851][463]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.10.21-23.26.42:150][463]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.21-23.26.42:150][463]LogAIModule: Creating AISystem for world Level1
+[2020.10.21-23.26.42:150][463]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002043118F400), frame # 23463
+[2020.10.21-23.26.42:150][463]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000203C37A5440), frame # 23463
+[2020.10.21-23.26.42:163][463]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.10.21-23.26.42:203][463]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.21-23.26.42:203][463]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.106ms to complete.
+[2020.10.21-23.26.42:203][463]LogFileHelpers: Loading map 'Level1' took 3.194
+[2020.10.21-23.26.42:235][464]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.10.21-23.26.43:389][499]LogTemp: Repeating last play command: Selected Viewport
+[2020.10.21-23.26.43:405][499]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.10.21-23.26.43:405][499]PIE: New page: PIE session: Level1 (Oct 21, 2020, 11:26:43 AM)
+[2020.10.21-23.26.43:405][499]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Level1
+[2020.10.21-23.26.43:434][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028573s)
+[2020.10.21-23.26.43:434][499]LogAIModule: Creating AISystem for world Level1
+[2020.10.21-23.26.43:434][499]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002042E198800), frame # 23499
+[2020.10.21-23.26.43:434][499]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020438DCBEC0), frame # 23499
+[2020.10.21-23.26.43:435][499]LogPlayLevel: PIE: World Init took: (0.000992s)
+[2020.10.21-23.26.43:435][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Level1.Level1 to /Game/ThirdPersonBP/Maps/UEDPIE_0_Level1.Level1 (0.029740s)
+[2020.10.21-23.26.43:445][499]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.10.21-23.26.43:446][499]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.10.21-23.26.43:446][499]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.10.21-23.26.43:446][499]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.10.21-23.26.43:446][499]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.10.21-23.26.43:446][499]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.10.21-23.26.43:446][499]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.10.21-23.26.43:446][499]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.10.21-23.26.43:446][499]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.10.21-23.26.43:447][499]LogAudio: Display: Using built-in audio occlusion.
+[2020.10.21-23.26.43:447][499]LogAudioMixer: Display: Initializing audio mixer.
+[2020.10.21-23.26.43:448][499]LogAudioMixer: Display: 0: FrontLeft
+[2020.10.21-23.26.43:448][499]LogAudioMixer: Display: 1: FrontRight
+[2020.10.21-23.26.43:457][499]LogAudioMixer: Display: Using Audio Device Speakers (2- HyperX Cloud Stinger Wireless)
+[2020.10.21-23.26.43:458][499]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.10.21-23.26.43:458][499]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.10.21-23.26.43:458][499]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.10.21-23.26.43:458][499]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.10.21-23.26.43:470][499]LogInit: FAudioDevice initialized.
+[2020.10.21-23.26.43:476][499]LogLoad: Game class is 'MAIN_GM_C'
+[2020.10.21-23.26.43:483][499]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2020.10.21-17.26.43
+[2020.10.21-23.26.43:483][499]LogWorld: Bringing up level for play took: 0.006649
+[2020.10.21-23.26.43:483][499]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2020.10.21-23.26.43:490][499]PIE: Server logged in
+[2020.10.21-23.26.43:491][499]PIE: Play in editor total start time 0.087 seconds.
+[2020.10.21-23.26.51:963][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.21-23.26.51:963][833]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_Level1
+[2020.10.21-23.26.51:963][833]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-23.26.51:965][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.26.51:976][833]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.10.21-23.26.51:978][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.26.51:988][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.10.21-23.26.52:005][833]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020438DCBEC0), frame # 23833
+[2020.10.21-23.26.52:005][833]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002042E198800), frame # 23833
+[2020.10.21-23.26.52:007][833]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.10.21-23.26.52:032][834]LogPlayLevel: Display: Destroying online subsystem :Context_15
