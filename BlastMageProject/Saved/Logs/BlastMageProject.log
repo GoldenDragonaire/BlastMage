@@ -1231,3 +1231,114 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.10.21-23.26.52:005][833]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002042E198800), frame # 23833
 [2020.10.21-23.26.52:007][833]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
 [2020.10.21-23.26.52:032][834]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.10.21-23.29.31:040][984]LogEditorViewport: Clicking on Actor (LMB): Trap_C (Trap61)
+[2020.10.21-23.29.34:693][102]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2020.10.21-23.29.35:942][146]Cmd: DELETE
+[2020.10.21-23.29.35:942][146]Cmd: ACTOR DELETE
+[2020.10.21-23.29.35:949][146]LogEditorActor: Deleted Actor: ThirdPersonCharacter_C
+[2020.10.21-23.29.35:972][146]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.10.21-23.29.35:975][146]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2020.10.21-23.30.00:369][560]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPersonBP/Maps/Level2.Level2
+[2020.10.21-23.30.00:381][560]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2020.10.21-23.30.02:395][560]LogSlate: Window 'Save Content' being destroyed
+[2020.10.21-23.30.02:403][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Level1" FILE="D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.10.21-23.30.02:413][560]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.10.21-23.30.02:489][560]LogSavePackage: Moving 'D:/BlastMage/BlastMageProject/Saved/Level1481CE2A2441253537E09B8B65144B36A.tmp' to 'D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level1.umap'
+[2020.10.21-23.30.02:515][560]LogFileHelpers: Saving map 'Level1' took 0.113
+[2020.10.21-23.30.02:515][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Level1_BuiltData" FILE="D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level1_BuiltData.uasset" SILENT=true
+[2020.10.21-23.30.02:634][560]LogSavePackage: Moving 'D:/BlastMage/BlastMageProject/Saved/Level1_BuiltData714C8B834620CE9F800ABAB1A5D4155E.tmp' to 'D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level1_BuiltData.uasset'
+[2020.10.21-23.30.02:636][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Level1_BuiltData" FILE="D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level1_BuiltData.uasset" SILENT=true
+[2020.10.21-23.30.02:704][560]LogSavePackage: Moving 'D:/BlastMage/BlastMageProject/Saved/Level1_BuiltDataDD8DFBEF4F7E3679C733E980F211E63C.tmp' to 'D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level1_BuiltData.uasset'
+[2020.10.21-23.30.02:705][560]Cmd: MAP LOAD FILE="D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.21-23.30.02:705][560]LightingResults: New page: Lighting Build
+[2020.10.21-23.30.02:705][560]LoadErrors: New page: Loading map: Level2.umap
+[2020.10.21-23.30.02:707][560]LogWorld: UWorld::CleanupWorld for Level1, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-23.30.02:707][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.30.02:707][560]MapCheck: New page: Map Check
+[2020.10.21-23.30.02:707][560]LightingResults: New page: Lighting Build
+[2020.10.21-23.30.02:719][560]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000203C37A5440), frame # 26560
+[2020.10.21-23.30.02:719][560]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002043118F400), frame # 26560
+[2020.10.21-23.30.02:721][560]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.10.21-23.30.03:003][560]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.21-23.30.03:003][560]LogAIModule: Creating AISystem for world Level2
+[2020.10.21-23.30.03:003][560]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020414624E00), frame # 26560
+[2020.10.21-23.30.03:003][560]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000203BD9ACB80), frame # 26560
+[2020.10.21-23.30.03:017][560]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.10.21-23.30.03:039][560]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.21-23.30.03:039][560]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.137ms to complete.
+[2020.10.21-23.30.03:039][560]LogFileHelpers: Loading map 'Level2' took 0.334
+[2020.10.21-23.30.03:079][560]AssetCheck: New page: Asset Save: multiple assets
+[2020.10.21-23.30.03:079][560]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/Level1.Level1
+[2020.10.21-23.30.03:145][560]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/Level1_BuiltData.Level1_BuiltData
+[2020.10.21-23.30.28:240][894]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/FloorTile.FloorTile
+[2020.10.21-23.30.28:399][894]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2020.10.21-23.33.02:466][814]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPersonBP/Maps/Level1.Level1
+[2020.10.21-23.33.02:489][814]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.10.21-23.33.02:491][814]Cmd: MAP LOAD FILE="D:/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.10.21-23.33.02:491][814]LightingResults: New page: Lighting Build
+[2020.10.21-23.33.02:491][814]LoadErrors: New page: Loading map: Level1.umap
+[2020.10.21-23.33.02:495][814]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-23.33.02:495][814]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.33.02:495][814]MapCheck: New page: Map Check
+[2020.10.21-23.33.02:495][814]LightingResults: New page: Lighting Build
+[2020.10.21-23.33.02:517][814]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000203BD9ACB80), frame # 27814
+[2020.10.21-23.33.02:517][814]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020414624E00), frame # 27814
+[2020.10.21-23.33.02:519][814]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2020.10.21-23.33.02:795][814]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.10.21-23.33.02:795][814]LogAIModule: Creating AISystem for world Level1
+[2020.10.21-23.33.02:795][814]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002042DE80400), frame # 27814
+[2020.10.21-23.33.02:795][814]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020413EE6340), frame # 27814
+[2020.10.21-23.33.02:817][814]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2020.10.21-23.33.02:840][814]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.10.21-23.33.02:840][814]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.111ms to complete.
+[2020.10.21-23.33.02:840][814]LogFileHelpers: Loading map 'Level1' took 0.349
+[2020.10.21-23.33.15:829][257]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2020.10.21-23.33.15:874][258]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 34
+[2020.10.21-23.33.15:874][258]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 29
+[2020.10.21-23.33.15:874][258]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 24
+[2020.10.21-23.33.15:874][258]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 19
+[2020.10.21-23.33.15:874][258]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 14
+[2020.10.21-23.33.15:874][258]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 9
+[2020.10.21-23.33.15:874][258]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2020.10.21-23.33.15:942][258]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2020.10.21-23.33.15:956][258]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 34
+[2020.10.21-23.33.16:043][259]LogMaterial: Display: Missing cached shader map for material Material_2, compiling. 
+[2020.10.21-23.33.16:127][260]LogMaterial: Display: Missing cached shader map for material Material_3, compiling. 
+[2020.10.21-23.33.17:723][284]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 97
+[2020.10.21-23.33.17:759][285]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 87
+[2020.10.21-23.33.17:789][285]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 77
+[2020.10.21-23.33.18:157][291]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 67
+[2020.10.21-23.33.18:213][292]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 58
+[2020.10.21-23.33.18:213][292]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 50
+[2020.10.21-23.33.18:431][295]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 42
+[2020.10.21-23.33.18:614][298]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 36
+[2020.10.21-23.33.20:655][332]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 31
+[2020.10.21-23.33.21:163][342]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 27
+[2020.10.21-23.33.21:255][342]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 23
+[2020.10.21-23.33.21:305][342]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Gameplay/Blueprints/PLAYER_CHARACTER.PLAYER_CHARACTER
+[2020.10.21-23.33.21:778][342]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 20
+[2020.10.21-23.33.22:025][343]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 17
+[2020.10.21-23.33.22:026][343]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 14
+[2020.10.21-23.33.22:026][343]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 12
+[2020.10.21-23.33.22:137][346]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 10
+[2020.10.21-23.33.22:429][351]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 8
+[2020.10.21-23.33.22:775][357]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2020.10.21-23.33.22:832][358]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.10.21-23.33.22:879][359]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4
+[2020.10.21-23.33.22:989][361]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3
+[2020.10.21-23.33.23:063][362]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2020.10.21-23.33.23:172][364]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2020.10.21-23.33.37:428][800]BlueprintLog: New page: Compile PLAYER_CHARACTER
+[2020.10.21-23.33.37:498][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2020.10.21-23.33.37:539][800]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.10.21-23.33.39:026][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/Blueprints/PLAYER_CHARACTER" FILE="D:/BlastMage/BlastMageProject/Content/Gameplay/Blueprints/PLAYER_CHARACTER.uasset" SILENT=true
+[2020.10.21-23.33.39:077][845]LogSavePackage: Moving 'D:/BlastMage/BlastMageProject/Saved/PLAYER_CHARACTER1800374243D0C894FD68F0A8E7B0D44A.tmp' to 'D:/BlastMage/BlastMageProject/Content/Gameplay/Blueprints/PLAYER_CHARACTER.uasset'
+[2020.10.21-23.33.39:092][845]AssetCheck: New page: Asset Save: PLAYER_CHARACTER
+[2020.10.21-23.33.39:092][845]LogContentValidation: Display: Validating Blueprint /Game/Gameplay/Blueprints/PLAYER_CHARACTER.PLAYER_CHARACTER
+[2020.10.21-23.33.40:524][890]LogSlate: Window 'PLAYER_CHARACTER' being destroyed
+[2020.10.21-23.33.40:560][890]LogSlate: Window 'PLAYER_CHARACTER' being destroyed
+[2020.10.21-23.33.40:579][890]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-23.33.40:579][890]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.10.21-23.33.40:630][890]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.10.21-23.33.40:630][890]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.10.21-23.33.40:630][890]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
