@@ -1,0 +1,576 @@
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 0
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset" 1
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Mannequin/Animations/ThirdPerson_Jump.uasset" 2
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset" 3
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset" 4
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Mannequin/Animations/ThirdPersonIdle.uasset" 5
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Mannequin/Animations/ThirdPersonRun.uasset" 6
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Mannequin/Animations/ThirdPersonWalk.uasset" 7
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset" 8
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" 9
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Gameplay/Blueprints/MAIN_GM.uasset" 10
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Gameplay/Blueprints/PLAYER_CONTROLLER.uasset" 11
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Gameplay/Blueprints/PROJECTILE_BP/PROJ_BASE.uasset" 12
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Meshes/Materials/YellowMaterial.uasset" 13
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Geometry/Meshes/CubeMaterial.uasset" 14
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Geometry/Meshes/1M_Cube.uasset" 15
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Gameplay/Blueprints/PROJECTILE_BP/PROJ_ELECBOLT.uasset" 16
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Meshes/Materials/RedMaterial.uasset" 17
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Geometry/Meshes/1M_Cube_Chamfer.uasset" 18
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Gameplay/Blueprints/PROJECTILE_BP/PROJ_FIREBALL.uasset" 19
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Meshes/Materials/BlueMaterial.uasset" 20
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Gameplay/Blueprints/PROJECTILE_BP/PROJ_SNOWBALL.uasset" 21
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Meshes/Materials/BlueMaterial_Faded.uasset" 22
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Meshes/Materials/RedMaterial_Faded.uasset" 23
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Meshes/Materials/YellowMaterial_Faded.uasset" 24
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/ThirdPerson/Meshes/RampMaterial.uasset" 25
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 26
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uasset" 27
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uasset" 28
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 29
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 30
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Mannequin/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 31
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 32
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Mannequin/Character/Textures/UE4_LOGO_CARD.uasset" 33
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Mannequin/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" 34
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 35
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Mannequin/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 36
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Mannequin/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 37
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset" 38
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 39
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Mannequin/Character/Materials/M_UE4Man_Body.uasset" 40
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Mannequin/Character/Textures/UE4Man_Logo_N.uasset" 41
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Mannequin/Character/Materials/M_UE4Man_ChestLogo.uasset" 42
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset" 43
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Mannequin/Character/Mesh/SK_Mannequin.uasset" 44
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Meshes/Materials/pCube3Mat.uasset" 45
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Meshes/Crystal_2_Revision.uasset" 46
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Meshes/Materials/initialShadingGroup.uasset" 47
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Meshes/initialShadingGroup.uasset" 48
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Meshes/Pointer.uasset" 49
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Gameplay/Blueprints/PLAYER_CHARACTER.uasset" 50
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Blueprints/Full_HP_Icon.uasset" 51
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Blueprints/PlayersHUD.uasset" 52
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/HUD.uasset" 53
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/NewGameMode.uasset" 54
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Blueprints/ClickToStart.uasset" 55
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Blueprints/Exit.uasset" 56
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Blueprints/ExitHovered.uasset" 57
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Blueprints/ffaf9231516629_56544977464d9.uasset" 58
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Blueprints/Low_HP_Icon.uasset" 59
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Blueprints/MainMenu.uasset" 60
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Blueprints/PTMono-Regular.uasset" 61
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Blueprints/PTMono-Regular_Font.uasset" 62
+"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 63
+"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 64
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/DefaultTextMaterialTranslucentUnlit.uasset" 65
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_DemoWall.uasset" 66
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_DemoWall_Inst.uasset" 67
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_DemoWall_Inst_3.uasset" 68
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_DemoWall_Inst_NamePlate.uasset" 69
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_DemoWall_Inst_BaseFloor_Inst.uasset" 70
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/BluePrint/BP_DemoDisplay_Enum.uasset" 71
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_DemoWall_Inst2.uasset" 72
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_Base.uasset" 73
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_Base2.uasset" 74
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_Base_FlatWall.uasset" 75
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_BaseRoom.uasset" 76
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_NamePlate.uasset" 77
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/BluePrint/BP_DemoDisplay.uasset" 78
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/BluePrint/BPInterface_Button.uasset" 79
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_Button.uasset" 80
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_Button_Inst.uasset" 81
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_Button_Chrome.uasset" 82
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_Button.uasset" 83
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/BluePrint/BP_DemoTrigger.uasset" 84
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_LightSculpture.uasset" 85
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_LightSculpture.uasset" 86
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/BluePrint/BP_LightScultpureDynamic.uasset" 87
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/BluePrint/RoomDescription.uasset" 88
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Textures/T_Pattern_M.uasset" 89
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_DemoAnimated.uasset" 90
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_DemoAnimated_Inst.uasset" 91
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_DemoAnimated_Vertex.uasset" 92
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Textures/T_UnrealEngineDecal.uasset" 93
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_DemoLightFunktion.uasset" 94
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_DemoLightFunktion_Inst.uasset" 95
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_DemoMinRoughnesS_Inst.uasset" 96
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Textures/T_RoomTiles_M.uasset" 97
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Textures/T_RoomTiles_N.uasset" 98
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_DemoRoomTiles.uasset" 99
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_DemoRoomTiles_Inst.uasset" 100
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_DemoRoomTiles_Inst_Color1.uasset" 101
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_DemoRoomTiles_Inst_Color2.uasset" 102
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_DemoRoomTiles_Inst_Color3.uasset" 103
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_DemoRoomTiles_Inst_Color5_Inst.uasset" 104
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_Emissive.uasset" 105
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_Emissive_1.uasset" 106
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_Emissive_2.uasset" 107
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.uasset" 108
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_Gradient.uasset" 109
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_Gradient_Green.uasset" 110
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_Gradient_Blue.uasset" 111
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_Gradient_Red.uasset" 112
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_Gradient_EmissiveOverbright.uasset" 113
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_LightSculpture_Red.uasset" 114
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_LightSculpture_Green.uasset" 115
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_LightSculpture_Blue.uasset" 116
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_ReflectionDemo_MAT.uasset" 117
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_ReflectionDemo_1.uasset" 118
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_ReflectionDemo_2.uasset" 119
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_ReflectionDemo_3.uasset" 120
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_ReflectionDemo_Metallic_1.uasset" 121
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_ReflectionDemo_Metallic_2.uasset" 122
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_ReflectionDemo_Metallic_3.uasset" 123
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Textures/NewTextureRenderTarget2D.uasset" 124
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_SceneCapture2d.uasset" 125
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Textures/NewTextureRenderTargetCube.uasset" 126
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_SceneCaptureCube.uasset" 127
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_TestSky.uasset" 128
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_TestSky_Inst.uasset" 129
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_BaseTrimSquare.uasset" 130
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_DemoWallPattern.uasset" 131
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_DemoWallPattern_Inst.uasset" 132
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_DemoWallPattern_NoText.uasset" 133
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_DemoCube.uasset" 134
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset" 135
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset" 136
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset" 137
+"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 138
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_DemoPlate.uasset" 139
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_DemoRoomBox.uasset" 140
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_DemoSurface.uasset" 141
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_GlasDoor.uasset" 142
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_GlasDoor_Inst.uasset" 143
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_Door.uasset" 144
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Textures/T_UE4_Logo_M.uasset" 145
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_UE4_Logo_Doors.uasset" 146
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_UE4_Logo_Door.uasset" 147
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_DoorLock.uasset" 148
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_GraphFrame.uasset" 149
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_Slider1.uasset" 150
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_SliderBase.uasset" 151
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_UE4_Logo_2.uasset" 152
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_UE4_Logo.uasset" 153
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/SkeletalMeshes/PHYSMAT_SK_RigidBodyDemo.uasset" 154
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/SkeletalMeshes/SK_RigidBodyDemo_PhysicsAsset.uasset" 155
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/SkeletalMeshes/SK_RigidBodyDemo_Skeleton.uasset" 156
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/SkeletalMeshes/SK_RigidBodyDemo.uasset" 157
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Beams/T_Beam01Grey.uasset" 158
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Materials/Originals/M_Additive.uasset" 159
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Materials/Mi_Beam01.uasset" 160
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Models/SM_Quad.uasset" 161
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Models/SM_RingMesh01.uasset" 162
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Beams/T_Beam01Orange.uasset" 163
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Beams/T_Beam01Red.uasset" 164
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Beams/T_Beam01Violet.uasset" 165
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Beams/T_Beam01White.uasset" 166
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Beams/T_Beam01Yellow.uasset" 167
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Beams/T_Beam02.uasset" 168
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Beams/T_VignetteMask.uasset" 169
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Gradients/T_GradientCenter01.uasset" 170
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Gradients/T_GradientCenter02.uasset" 171
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Gradients/T_GradientCenter04.uasset" 172
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Gradients/T_Gradient_aqua.uasset" 173
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Gradients/T_Gradient_blue.uasset" 174
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Gradients/T_Gradient_green.uasset" 175
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Gradients/T_Gradient_greyscale.uasset" 176
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Gradients/T_Gradient_red.uasset" 177
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Gradients/T_Gradient_violet.uasset" 178
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Gradients/T_Gradient_yellow.uasset" 179
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Noise/T_Noise00.uasset" 180
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Noise/T_Noise000.uasset" 181
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Noise/T_Noise03.uasset" 182
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Noise/T_Noise04.uasset" 183
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Noise/T_Noise05.uasset" 184
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Noise/T_Noise06.uasset" 185
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Noise/T_Noise07.uasset" 186
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Noise/T_Noise08.uasset" 187
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Noise/T_Noise09.uasset" 188
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Noise/T_Noise10.uasset" 189
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Noise/T_Noise11.uasset" 190
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Noise/T_Noise12.uasset" 191
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Square/T_Square01.uasset" 192
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Square/T_Square03.uasset" 193
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Square/T_Square04.uasset" 194
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Square/T_SunShafts01.uasset" 195
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Gameplay/Blueprints/ThirdPersonCharacter.uasset" 196
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Gameplay/Blueprints/ThirdPersonCharacter_C.uasset" 197
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Gameplay/Blueprints/ThirdPersonGameMode.uasset" 198
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Gameplay/Blueprints/ThirdPersonGameMode_C.uasset" 199
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Gameplay/Blueprints/initialShadingGroup.uasset" 200
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Gameplay/Blueprints/Wizard.uasset" 201
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Gameplay/Maps/ThirdPersonExampleMap.uasset" 202
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Gameplay/Maps/TEST_MAP_BuiltData.uasset" 203
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Gameplay/Maps/ThirdPersonExampleMap_BuiltData.uasset" 204
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Gameplay/Maps/ThirdPersonExampleMap_C.uasset" 205
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Geometry/Meshes/BlueMaterial.uasset" 206
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Geometry/Meshes/RedMaterial.uasset" 207
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Geometry/Meshes/YellowMaterial.uasset" 208
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Mannequin/Animations/ThirdPersonJump_End.uasset" 209
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Meshes/purplever1_lambert9SG_OcclusionRoughnessMetallic.uasset" 210
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/StarterContent/Architecture/initialShadingGroup.uasset" 211
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/StarterContent/Architecture/Tower.uasset" 212
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/ThirdPerson/Meshes/Bump_StaticMesh.uasset" 213
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/ThirdPerson/Meshes/LeftArm_StaticMesh.uasset" 214
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/ThirdPerson/Meshes/Linear_Stair_StaticMesh.uasset" 215
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/ThirdPerson/Meshes/Ramp_StaticMesh.uasset" 216
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/ThirdPerson/Meshes/RightArm_StaticMesh.uasset" 217
+"../../../Engine/Content/Animation/DefaultAnimBoneCompressionSettings.uasset" 218
+"../../../Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uasset" 219
+"../../../Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.uasset" 220
+"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 221
+"../../../Engine/Content/BasicShapes/Cone.uasset" 222
+"../../../Engine/Content/BasicShapes/Cylinder.uasset" 223
+"../../../Engine/Content/BasicShapes/Plane.uasset" 224
+"../../../Engine/Content/BasicShapes/Sphere.uasset" 225
+"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 226
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 227
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 228
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 229
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 230
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 231
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 232
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 233
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 234
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 235
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 236
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 237
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 238
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 239
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 240
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 241
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 242
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 243
+"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset" 244
+"../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset" 245
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset" 246
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset" 247
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset" 248
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset" 249
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset" 250
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset" 251
+"../../../Engine/Content/EditorResources/BSPVertex.uasset" 252
+"../../../Engine/Content/EditorResources/EmptyActor.uasset" 253
+"../../../Engine/Content/EditorResources/S_Actor.uasset" 254
+"../../../Engine/Content/EditorResources/S_Note.uasset" 255
+"../../../Engine/Content/EditorResources/S_Solver.uasset" 256
+"../../../Engine/Content/EditorResources/S_Trigger.uasset" 257
+"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 258
+"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 259
+"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 260
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed.uasset" 261
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset" 262
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset" 263
+"../../../Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset" 264
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset" 265
+"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 266
+"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 267
+"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 268
+"../../../Engine/Content/EngineDebugMaterials/M_SimpleUnlitTranslucent.uasset" 269
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.uasset" 270
+"../../../Engine/Content/EngineDebugMaterials/VolumeToRender.uasset" 271
+"../../../Engine/Content/EngineDebugMaterials/M_VolumeRenderSphereTracePP.uasset" 272
+"../../../Engine/Content/EngineDebugMaterials/WireframeMaterial.uasset" 273
+"../../../Engine/Content/EngineFonts/Faces/DroidSansFallback.uasset" 274
+"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 275
+"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 276
+"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 277
+"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 278
+"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 279
+"../../../Engine/Content/EngineFonts/Roboto.uasset" 280
+"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 281
+"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 282
+"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 283
+"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 284
+"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 285
+"../../../Engine/Content/EngineMaterials/BlueNoise.uasset" 286
+"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 287
+"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 288
+"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 289
+"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 290
+"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 291
+"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 292
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 293
+"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 294
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 295
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid_Low.uasset" 296
+"../../../Engine/Content/EngineMaterials/EmissiveMeshMaterial.uasset" 297
+"../../../Engine/Content/EngineMaterials/GizmoMaterial.uasset" 298
+"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 299
+"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 300
+"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 301
+"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 302
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 303
+"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 304
+"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 305
+"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 306
+"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 307
+"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 308
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 309
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 310
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 311
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 312
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 313
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 314
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 315
+"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 316
+"../../../Engine/Content/EngineMeshes/Sphere.uasset" 317
+"../../../Engine/Content/EngineResources/Black.uasset" 318
+"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 319
+"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 320
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 321
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 322
+"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 323
+"../../../Engine/Content/EngineSounds/Master.uasset" 324
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 325
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 326
+"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 327
+"../../../Engine/Content/Maps/Templates/Thumbnails/TimeOfDay.uasset" 328
+"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 329
+"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 330
+"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 331
+"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 332
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 333
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 334
+"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 335
+"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 336
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 337
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 338
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 339
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 340
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 341
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 342
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 343
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 344
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 345
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 346
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 347
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 348
+"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 349
+"../../../Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset" 350
+"../../../Engine/Content/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x.uasset" 351
+"../../../Engine/Content/Tutorial/Basics/LevelEditorOverview.uasset" 352
+"../../../Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset" 353
+"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" 354
+"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset" 355
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset" 356
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset" 357
+"../../../Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset" 358
+"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset" 359
+"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset" 360
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset" 361
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset" 362
+"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 363
+"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 364
+"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 365
+"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 366
+"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 367
+"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 368
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraBooleanLogicOps.uasset" 369
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraCoordinateSpace.uasset" 370
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraExpansionMode.uasset" 371
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraOrientationAxis.uasset" 372
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraRandomnessMode.uasset" 373
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 374
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.uasset" 375
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset" 376
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uasset" 377
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey_Lit.uasset" 378
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset" 379
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_WhiteMaterial.uasset" 380
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 381
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 382
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 383
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 384
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 385
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 386
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 387
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 388
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 389
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/MainMenu_BuiltData.uasset" 390
+"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" 391
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Blueprints/image0.uasset" 392
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Blueprints/Play.uasset" 393
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Blueprints/PlayHovered.uasset" 394
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Blueprints/MainMenuWidget.uasset" 395
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/MainMenu.umap" 396
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/BluePrint/BP_DemoRoom_Enum.uasset" 397
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/BluePrint/DemoRoomStruct.uasset" 398
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_Glass.uasset" 399
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_DemoWallPattern_Inst_Mirrored.uasset" 400
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_Glass_Inst.uasset" 401
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_DemoDivider_1.uasset" 402
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_DemoDivider_2.uasset" 403
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_DemoRoomBackWall.uasset" 404
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_DemoWall_MattPlastic.uasset" 405
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_DemoRoomBackWall2.uasset" 406
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_LightTube.uasset" 407
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Materials/M_LightTube_Inst.uasset" 408
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_DemoRoomClamp.uasset" 409
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_DemoRoomClamp2.uasset" 410
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_DemoRoomL.uasset" 411
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_DemoRoomLTrim.uasset" 412
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_DemoRoomTrim.uasset" 413
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_DemoRoomTrim2.uasset" 414
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_DemoRoomTrimAdd.uasset" 415
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_DemoRoomU.uasset" 416
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_DemoRoomU2.uasset" 417
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_DemoRoomU_Hole.uasset" 418
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_URoom_Wall.uasset" 419
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/Meshes/SM_URoom_Wall2.uasset" 420
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/DemoRoom/BluePrint/BP_DemoRoom.uasset" 421
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_GAP_UnrealProjectile.uasset" 422
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/CameraShake01.uasset" 423
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/EpicToonProjectilesHUD.uasset" 424
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_GAP_SpawnVFX.uasset" 425
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Materials/Originals/M_AlphaBlended.uasset" 426
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Texturesheets/T_ToonProjectilesVol1_10X10_8K_part1.uasset" 427
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Materials/Mi_ToonProjectilesP1_10x10_AB.uasset" 428
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Materials/Mi_ToonProjectilesP1_10x10_Add.uasset" 429
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Hits/P_Hit_Ball01Blue.uasset" 430
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Muzzles/P_Muzzle_Ball01Blue.uasset" 431
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Projectiles/P_Projectile_Ball01Blue.uasset" 432
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Ball01Blue.uasset" 433
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Ball01Green.uasset" 434
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Ball01Red.uasset" 435
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Hits/P_Hit_Bomb01Blue.uasset" 436
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Muzzles/P_Muzzle_Bomb01Blue.uasset" 437
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Projectiles/P_Projectile_Bomb01Blue.uasset" 438
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Bomb01Blue.uasset" 439
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Bomb01Orange.uasset" 440
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Bomb01Purple.uasset" 441
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Hits/P_Hit_Bomb02Blue.uasset" 442
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Muzzles/P_Muzzle_Bomb02Blue.uasset" 443
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Projectiles/P_Projectile_Bomb02Blue.uasset" 444
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Bomb02Blue.uasset" 445
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Bomb02Pink.uasset" 446
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Bomb02Red.uasset" 447
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Hits/P_Hit_Bomb03Blue.uasset" 448
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Muzzles/P_Muzzle_Bomb03Blue.uasset" 449
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Texturesheets/T_ToonSmokeTrail01_3x3.uasset" 450
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Materials/Mi_ToonSmokeTrail01_AB_3x3.uasset" 451
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Models/SM_BiPlanar01.uasset" 452
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Projectiles/P_Projectile_Bomb03Blue.uasset" 453
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Bomb03Blue.uasset" 454
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Bomb03Green.uasset" 455
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Bomb03Orange.uasset" 456
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Hits/P_Hit_Bullet01Blue.uasset" 457
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Muzzles/P_Muzzle_Bullet01Blue.uasset" 458
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/T_Projectile01.uasset" 459
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Materials/Mi_Projectile01.uasset" 460
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Materials/Originals/M_Additive_Tex.uasset" 461
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Square/T_Square02.uasset" 462
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Materials/Mi_Square02.uasset" 463
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Projectiles/P_Projectile_Bullet01Blue.uasset" 464
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Bullet01Blue.uasset" 465
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Bullet01Green.uasset" 466
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Bullet01Red.uasset" 467
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Texturesheets/T_ToonProjectilesVol1_10X10_8K_part2.uasset" 468
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Materials/Mi_ToonProjectilesP2_10x10_Add.uasset" 469
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Hits/P_Hit_ElectricBall01Blue.uasset" 470
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Muzzles/P_Muzzle_ElectricBall01Blue.uasset" 471
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Projectiles/P_Projectile_ElectricBall01Blue.uasset" 472
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_ElectricBall01Blue.uasset" 473
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_ElectricBall01Green.uasset" 474
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_ElectricBall01Orange.uasset" 475
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Projectiles/P_Projectile_ElectricBall02Blue.uasset" 476
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_ElectricBall02Blue.uasset" 477
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_ElectricBall02Green.uasset" 478
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_ElectricBall02Yellow.uasset" 479
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Hits/P_Hit_Fireball01Blue.uasset" 480
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Muzzles/P_Muzzle_Fireball01Blue.uasset" 481
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Texturesheets/T_ToonCircle02_3x3.uasset" 482
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Materials/Mi_ToonCircle02_Add_3x3.uasset" 483
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Gradients/T_GradientCenter03.uasset" 484
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Noise/T_Noise01.uasset" 485
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/Noise/T_Noise02.uasset" 486
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Materials/Originals/M_AdditiveScroll01.uasset" 487
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Materials/Mi_Trail01_AddScroll.uasset" 488
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Models/SM_QuadSkewed.uasset" 489
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Models/SM_Ring01.uasset" 490
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Projectiles/P_Projectile_Fireball01Blue.uasset" 491
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Fireball01Blue.uasset" 492
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Fireball01Green.uasset" 493
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Fireball01Orange.uasset" 494
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Hits/P_Hit_MegaBomb01Blue.uasset" 495
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Muzzles/P_Muzzle_MegaBomb01Blue.uasset" 496
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Projectiles/P_Projectile_MegaBomb01Blue.uasset" 497
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_MegaBomb01Blue.uasset" 498
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_MegaBomb01Purple.uasset" 499
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_MegaBomb01Red.uasset" 500
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Hits/P_Hit_Plasma01Blue.uasset" 501
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Muzzles/P_Muzzle_Plasma01Blue.uasset" 502
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Projectiles/P_Projectile_Plasma01Blue.uasset" 503
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Plasma01Blue.uasset" 504
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Plasma01Orange.uasset" 505
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Plasma01Purple.uasset" 506
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Hits/P_Hit_Plasma02Blue.uasset" 507
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Muzzles/P_Muzzle_Plasma02Blue.uasset" 508
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Projectiles/P_Projectile_Plasma02Blue.uasset" 509
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Plasma02Blue.uasset" 510
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Plasma02Green.uasset" 511
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Plasma02Pink.uasset" 512
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Hits/P_Hit_Triangle01Blue.uasset" 513
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Muzzles/P_Muzzle_Triangle01Blue.uasset" 514
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Projectiles/P_Projectile_TriangleBlue.uasset" 515
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Trangle01Blue.uasset" 516
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Trangle01Green.uasset" 517
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_Trangle01Violet.uasset" 518
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Textures/T_Impact04.uasset" 519
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Materials/Mi_Impact04.uasset" 520
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Materials/Mi_ToonProjectilesP2_10x10_AB.uasset" 521
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/Models/SM_Cylinder01.uasset" 522
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Hits/P_Hit_Waterball01Blue.uasset" 523
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Muzzles/P_Muzzle_Waterball01Blue.uasset" 524
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Particles/Projectiles/P_Projectile_WaterBall01.uasset" 525
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_WaterBall01Blue.uasset" 526
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_WaterBall01Green.uasset" 527
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Blueprints/BP_Projectile_WaterBall01Orange.uasset" 528
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Maps/ToonProjectilesVol1_ShootingRoom_BuiltData.uasset" 529
+"../../../Engine/Content/MapTemplates/Bokeh_5Sides.uasset" 530
+"../../../Engine/Content/MapTemplates/T_ScreenDirt02_w.uasset" 531
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/GabrielAguiarProd/ToonProjectilesVol1/Maps/ToonProjectilesVol1_ShootingRoom.umap" 532
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/initialShadingGroup.uasset" 533
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Cannon001.uasset" 534
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Blueprints/Cannon_Slide_FireStraight.uasset" 535
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" 536
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" 537
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" 538
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/StarterContent/Textures/T_MacroVariation.uasset" 539
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" 540
+"../../../Engine/Content/BasicShapes/Cube.uasset" 541
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Blueprints/FloorTile.uasset" 542
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/InfinityBladeEffects/Environments/Fire/Env_Fire_Magma/Textures/T_Dungeon_Pipe_Lava_E.uasset" 543
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_Dungeon_Pipe_FlowingLava_Cool.uasset" 544
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Geometry/Meshes/TemplateFloor.uasset" 545
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Gameplay/Blueprints/LAVA_FLOOR.uasset" 546
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Gameplay/Maps/TEST_MAP.umap" 547
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level1_BuiltData.uasset" 548
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Meshes/purplever1_lambert9SG_BaseColor.uasset" 549
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Meshes/purplever1_lambert9SG_Normal.uasset" 550
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Meshes/Materials/towerP.uasset" 551
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Meshes/towerP.uasset" 552
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" 553
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" 554
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" 555
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" 556
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" 557
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Meshes/pupletowerP2.uasset" 558
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/StarterContent/Materials/M_Basic_Floor.uasset" 559
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/StarterContent/Architecture/Floor_400x400.uasset" 560
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/StarterContent/Materials/M_Basic_Wall.uasset" 561
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/StarterContent/Architecture/Wall_400x400.uasset" 562
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level1.umap" 563
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/TwinStickBP/Blueprints/TwinStickProjectile.uasset" 564
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" 565
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" 566
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" 567
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" 568
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" 569
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Blueprints/Trap.uasset" 570
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level2_BuiltData.uasset" 571
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/Meshes/lavablock.uasset" 572
+"../../../../../Github UnReal Projects/BlastMage/BlastMageProject/Content/ThirdPersonBP/Maps/Level2.umap" 573
+"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 574
+"../../../Engine/Content/Maps/Entry.umap" 575
