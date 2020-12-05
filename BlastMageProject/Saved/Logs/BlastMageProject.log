@@ -737,3 +737,14 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.12.05-22.20.59:484][  3]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2020.12.05-22.20.59:489][  3]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
 [2020.12.05-22.20.59:489][  3]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.05-22.22.33:352][132]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2020.12.05-22.22.33:356][132]LogMetaData: Removing '/Game/Blueprints/Tutorial.Tutorial_C' ref from Metadata '/Game/Blueprints/MainMenuWidget1.PackageMetaData'
+[2020.12.05-22.22.33:356][132]LogMetaData: Removing '/Game/Blueprints/Tutorial.SKEL_Tutorial_C' ref from Metadata '/Game/Blueprints/MainMenuWidget1.PackageMetaData'
+[2020.12.05-22.22.33:390][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tutorial" FILE="D:/BlastMage/BlastMageProject/Content/Blueprints/Tutorial.uasset" SILENT=true
+[2020.12.05-22.22.33:396][132]LogSavePackage: Moving 'D:/BlastMage/BlastMageProject/Saved/TutorialE71345F44C8127BCC55FB8BC1BC17B9B.tmp' to 'D:/BlastMage/BlastMageProject/Content/Blueprints/Tutorial.uasset'
+[2020.12.05-22.22.33:397][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenuWidget1" FILE="D:/BlastMage/BlastMageProject/Content/Blueprints/MainMenuWidget1.uasset" SILENT=true
+[2020.12.05-22.22.33:399][132]LogSavePackage: Moving 'D:/BlastMage/BlastMageProject/Saved/MainMenuWidget1305B46A0419D484839BFA59E285ADD47.tmp' to 'D:/BlastMage/BlastMageProject/Content/Blueprints/MainMenuWidget1.uasset'
+[2020.12.05-22.22.33:429][132]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.05-22.22.33:429][132]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Tutorial.Tutorial
+[2020.12.05-22.22.33:429][132]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/MainMenuWidget1.MainMenuWidget1_C
+[2020.12.05-22.22.33:429][132]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/MainMenuWidget1.MainMenuWidget1
